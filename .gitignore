@@ -1,0 +1,11 @@
+# Scripts de build (pas nécessaires pour le site)
+builder.js
+generate_slider.js
+
+# Fichiers sources bruts
+chap1.txt
+chap2.txt
+raw_questions.txt
+
+# Node
+node_modules/
