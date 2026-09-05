@@ -1942,6 +1942,9 @@ const sidebarOverlay = document.getElementById('sidebar-overlay');
 const menuBtn = document.getElementById('menu-btn');
 const closeMenuBtn = document.getElementById('close-menu-btn');
 const sidebarContent = document.getElementById('sidebar-content');
+const repeatBtn = document.getElementById('repeat-btn');
+
+let currentSpeechText = '';
 
 // Met à jour l'en-tête (Dossier, Chapitre, Sous-point)
 function updateHeaders(chapitre, sousPoint) {
@@ -1979,7 +1982,17 @@ function renderCurrentQuestion() {
 
     // Interaction pour afficher la réponse
     card.addEventListener('click', () => {
-        card.classList.toggle('show-answer');
+        const isShowing = card.classList.toggle('show-answer');
+        if (isShowing) {
+            // Nettoyer le HTML pour une lecture propre
+            const plainTextAnswer = item.answer.replace(/<[^>]+>/g, ' ').replace(/s+/g, ' ').trim();
+            currentSpeechText = plainTextAnswer;
+            speak(currentSpeechText);
+        } else {
+            // Si on referme, on relit la question
+            currentSpeechText = item.question;
+            speak(currentSpeechText);
+        }
     });
 
     feedContainer.appendChild(card);
@@ -1989,8 +2002,14 @@ function renderCurrentQuestion() {
     nextBtn.disabled = currentIndex === questionsData.length - 1;
     
     // Lire la question automatiquement
-    speak(item.question);
+    currentSpeechText = item.question;
+    speak(currentSpeechText);
 }
+
+// Répéter l'audio
+repeatBtn.addEventListener('click', () => {
+    speak(currentSpeechText);
+});
 
 // Navigation
 prevBtn.addEventListener('click', () => {
