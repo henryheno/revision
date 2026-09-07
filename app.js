@@ -10,9 +10,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
-            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
-            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation."
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
+            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation.",
+            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers."
         ],
         "correctIndex": 0
     },
@@ -26,8 +26,8 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
+            "Il vient du verbe latin audire, qui signifie « écouter ».",
             "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
-            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
             "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation."
         ],
         "correctIndex": 3
@@ -41,12 +41,12 @@ const questionsData = [
         "cleanAnswer": "Il vient du verbe latin audire, qui signifie « écouter ».",
         "type": "qcm",
         "options": [
-            "Ils sont nécessairement formalisés sous la forme d’un rapport écrit.",
-            "Il vient du verbe latin audire, qui signifie « écouter ».",
+            "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place.",
             "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation.",
-            "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place."
+            "Il vient du verbe latin audire, qui signifie « écouter ».",
+            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 4,
@@ -57,10 +57,10 @@ const questionsData = [
         "cleanAnswer": "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
         "type": "qcm",
         "options": [
+            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation.",
             "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
-            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion.",
             "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
-            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation."
+            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion."
         ],
         "correctIndex": 2
     },
@@ -74,11 +74,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
-            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation.",
             "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion.",
-            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles."
+            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
+            "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 6,
@@ -89,12 +89,12 @@ const questionsData = [
         "cleanAnswer": "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
         "type": "qcm",
         "options": [
-            "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés.",
             "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
             "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
-            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion."
+            "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés.",
+            "Le terme « audit » vient de l’anglais et d’une locution latine proche des notions de contrôle, vérification, expertise et évaluation."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 7,
@@ -105,12 +105,12 @@ const questionsData = [
         "cleanAnswer": "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés.",
         "type": "qcm",
         "options": [
-            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
             "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
-            "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés.",
-            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion."
+            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion.",
+            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
+            "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 8,
@@ -121,12 +121,12 @@ const questionsData = [
         "cleanAnswer": "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives.",
         "type": "qcm",
         "options": [
-            "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné.",
             "Il permet de présenter les constats et de mener les actions nécessaires pour corriger les écarts et les dysfonctionnements relevés.",
-            "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés.",
-            "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives."
+            "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place.",
+            "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives.",
+            "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 9,
@@ -138,9 +138,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Ils sont nécessairement formalisés sous la forme d’un rapport écrit.",
-            "L’audit est un processus systématique, indépendant et précisément documenté.",
-            "Les Romains employaient ce terme pour désigner un contrôle effectué au nom de l’empereur sur la gestion des provinces.",
-            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité."
+            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion.",
+            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
+            "L’audit est un processus systématique, indépendant et précisément documenté."
         ],
         "correctIndex": 0
     },
@@ -153,12 +153,12 @@ const questionsData = [
         "cleanAnswer": "Il permet de présenter les constats et de mener les actions nécessaires pour corriger les écarts et les dysfonctionnements relevés.",
         "type": "qcm",
         "options": [
-            "Il permet de présenter les constats et de mener les actions nécessaires pour corriger les écarts et les dysfonctionnements relevés.",
+            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
             "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives.",
-            "Ils sont nécessairement formalisés sous la forme d’un rapport écrit.",
-            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité."
+            "Il permet de présenter les constats et de mener les actions nécessaires pour corriger les écarts et les dysfonctionnements relevés.",
+            "Ils sont nécessairement formalisés sous la forme d’un rapport écrit."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 11,
@@ -169,12 +169,12 @@ const questionsData = [
         "cleanAnswer": "L’audit est un processus systématique, indépendant et précisément documenté.",
         "type": "qcm",
         "options": [
-            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
             "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
-            "L’audit est un processus systématique, indépendant et précisément documenté.",
-            "Ils sont nécessairement formalisés sous la forme d’un rapport écrit."
+            "Ils sont nécessairement formalisés sous la forme d’un rapport écrit.",
+            "Il s’agit notamment des évaluations, investigations, observations, entretiens, vérifications et contrôles.",
+            "L’audit est un processus systématique, indépendant et précisément documenté."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 12,
@@ -185,10 +185,10 @@ const questionsData = [
         "cleanAnswer": "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné.",
         "type": "qcm",
         "options": [
-            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion.",
             "Elles sont regroupées sous ce terme en raison d’exigences réglementaires ou normatives qui imposent notamment des procédures écrites avec des responsables identifiés.",
+            "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés.",
             "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné.",
-            "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés."
+            "Il fut introduit par les Anglo-Saxons au début du XIIIᵉ siècle dans le domaine de la gestion."
         ],
         "correctIndex": 2
     },
@@ -201,12 +201,12 @@ const questionsData = [
         "cleanAnswer": "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés.",
         "type": "qcm",
         "options": [
+            "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné.",
             "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives.",
-            "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés.",
-            "L’audit informatique a pour objectif d’identifier et d’évaluer les risques associés aux activités informatiques d’une entreprise ou d’une administration.",
-            "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné."
+            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation.",
+            "Il cherche notamment à détecter les anomalies et les risques associés dans les organismes et secteurs d’activité examinés."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 14,
@@ -217,12 +217,12 @@ const questionsData = [
         "cleanAnswer": "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place.",
         "type": "qcm",
         "options": [
-            "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place.",
             "Il cherche à déterminer dans quelle mesure les éléments du système observé satisfont aux exigences des référentiels du domaine concerné.",
+            "Il vient du verbe latin audire, qui signifie « écouter ».",
             "Parce qu’il permet de faire le point sur l’existant afin d’identifier les points faibles ou les éléments non conformes et de mettre en œuvre des actions correctives.",
-            "Il vient du verbe latin audire, qui signifie « écouter »."
+            "Auditer une entreprise ou un service consiste notamment à écouter les différents acteurs afin de comprendre et de faire évoluer le système en place."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 15,
@@ -234,11 +234,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
-            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
             "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
-            "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements."
+            "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements.",
+            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 16,
@@ -249,12 +249,12 @@ const questionsData = [
         "cleanAnswer": "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
         "type": "qcm",
         "options": [
-            "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
-            "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements.",
+            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
             "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
-            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus."
+            "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements.",
+            "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 17,
@@ -265,9 +265,9 @@ const questionsData = [
         "cleanAnswer": "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement.",
         "type": "qcm",
         "options": [
+            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
             "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
             "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
-            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
             "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement."
         ],
         "correctIndex": 3
@@ -281,9 +281,9 @@ const questionsData = [
         "cleanAnswer": "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
         "type": "qcm",
         "options": [
-            "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
-            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
             "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement.",
+            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
+            "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
             "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement."
         ],
         "correctIndex": 3
@@ -297,9 +297,9 @@ const questionsData = [
         "cleanAnswer": "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
         "type": "qcm",
         "options": [
-            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
-            "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
             "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
+            "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
+            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
             "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement."
         ],
         "correctIndex": 1
@@ -313,9 +313,9 @@ const questionsData = [
         "cleanAnswer": "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
         "type": "qcm",
         "options": [
-            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
             "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements.",
-            "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé.",
+            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
+            "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement.",
             "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
         ],
         "correctIndex": 3
@@ -329,12 +329,12 @@ const questionsData = [
         "cleanAnswer": "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé.",
         "type": "qcm",
         "options": [
-            "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée.",
             "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé.",
-            "Parce que l’informatique est devenue le support privilégié du système d’information, notamment pour les données et les traitements.",
+            "Principalement à cause de l’automatisation des tâches, de la numérisation des informations de gestion et des pièces justificatives, ainsi que de la dématérialisation des processus.",
+            "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée.",
             "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 22,
@@ -345,12 +345,12 @@ const questionsData = [
         "cleanAnswer": "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée.",
         "type": "qcm",
         "options": [
-            "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée.",
-            "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
+            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
+            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
             "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé.",
-            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
+            "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 23,
@@ -361,12 +361,12 @@ const questionsData = [
         "cleanAnswer": "L’audit informatique a pour objectif d’identifier et d’évaluer les risques associés aux activités informatiques d’une entreprise ou d’une administration.",
         "type": "qcm",
         "options": [
-            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation.",
             "L’audit informatique a pour objectif d’identifier et d’évaluer les risques associés aux activités informatiques d’une entreprise ou d’une administration.",
+            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
             "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement.",
-            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
+            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 24,
@@ -377,12 +377,12 @@ const questionsData = [
         "cleanAnswer": "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation.",
         "type": "qcm",
         "options": [
-            "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé.",
+            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation.",
+            "C’est la transformation des informations et pièces justificatives en données numériques pouvant être traitées informatiquement.",
             "L’audit informatique a pour objectif d’identifier et d’évaluer les risques associés aux activités informatiques d’une entreprise ou d’une administration.",
-            "Il se base sur le cadre réglementaire du secteur d’activité du pays concerné, les référentiels de bonnes pratiques, les benchmarks disponibles et l’expérience professionnelle des auditeurs.",
-            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation."
+            "Ils ne sont fiables et pérennes que si l’environnement informatique est efficacement contrôlé."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 25,
@@ -393,12 +393,12 @@ const questionsData = [
         "cleanAnswer": "Il se base sur le cadre réglementaire du secteur d’activité du pays concerné, les référentiels de bonnes pratiques, les benchmarks disponibles et l’expérience professionnelle des auditeurs.",
         "type": "qcm",
         "options": [
+            "L’audit informatique a pour objectif d’identifier et d’évaluer les risques associés aux activités informatiques d’une entreprise ou d’une administration.",
             "Il se base sur le cadre réglementaire du secteur d’activité du pays concerné, les référentiels de bonnes pratiques, les benchmarks disponibles et l’expérience professionnelle des auditeurs.",
             "Le référentiel COBIT est cité comme exemple.",
-            "C’est le remplacement des processus utilisant des supports physiques par des processus réalisés sous forme numérique.",
-            "Il cherche notamment à identifier les risques opérationnels, financiers et de réputation."
+            "Parce que ces contrôles permettent de s’assurer que l’environnement informatique fonctionne de manière fiable et maîtrisée."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 26,
@@ -411,7 +411,7 @@ const questionsData = [
         "options": [
             "Il se base sur le cadre réglementaire du secteur d’activité du pays concerné, les référentiels de bonnes pratiques, les benchmarks disponibles et l’expérience professionnelle des auditeurs.",
             "COBIT.",
-            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
+            "C’est l’utilisation de systèmes informatiques pour exécuter automatiquement certaines tâches auparavant réalisées manuellement.",
             "Le référentiel COBIT est cité comme exemple."
         ],
         "correctIndex": 3
@@ -425,12 +425,12 @@ const questionsData = [
         "cleanAnswer": "Il permet d’assurer la fiabilité des données, la sécurité des systèmes, l’optimisation des processus et la conformité réglementaire.",
         "type": "qcm",
         "options": [
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
             "Il permet d’assurer la fiabilité des données, la sécurité des systèmes, l’optimisation des processus et la conformité réglementaire.",
             "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
-            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
-            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système."
+            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 28,
@@ -441,12 +441,12 @@ const questionsData = [
         "cleanAnswer": "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
         "type": "qcm",
         "options": [
-            "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
-            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
+            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
             "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques."
+            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 29,
@@ -457,12 +457,12 @@ const questionsData = [
         "cleanAnswer": "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
         "type": "qcm",
         "options": [
-            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
-            "Cela signifie garantir que les informations restent exactes, complètes et ne soient pas modifiées de manière non autorisée.",
             "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps.",
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit."
+            "Cela signifie empêcher que les informations soient accessibles à des personnes non autorisées.",
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
+            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 30,
@@ -473,12 +473,12 @@ const questionsData = [
         "cleanAnswer": "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps.",
         "type": "qcm",
         "options": [
+            "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps.",
             "Cela signifie garantir que les informations restent exactes, complètes et ne soient pas modifiées de manière non autorisée.",
             "Cela signifie empêcher que les informations soient accessibles à des personnes non autorisées.",
-            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
-            "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps."
+            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 31,
@@ -489,12 +489,12 @@ const questionsData = [
         "cleanAnswer": "Cela signifie garantir que les informations restent exactes, complètes et ne soient pas modifiées de manière non autorisée.",
         "type": "qcm",
         "options": [
-            "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps.",
             "Cela signifie garantir que les informations restent exactes, complètes et ne soient pas modifiées de manière non autorisée.",
             "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
-            "Cela signifie empêcher que les informations soient accessibles à des personnes non autorisées."
+            "Cela signifie empêcher que les informations soient accessibles à des personnes non autorisées.",
+            "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 32,
@@ -506,11 +506,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Cela signifie garantir que les informations restent exactes, complètes et ne soient pas modifiées de manière non autorisée.",
-            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
             "Cela signifie empêcher que les informations soient accessibles à des personnes non autorisées.",
+            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
             "Cela signifie veiller à ce que le système d’information puisse fonctionner et rester disponible dans le temps."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 33,
@@ -521,9 +521,9 @@ const questionsData = [
         "cleanAnswer": "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
         "type": "qcm",
         "options": [
-            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
             "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
+            "Ce sont les contrôles intégrés ou liés aux applications informatiques afin de vérifier la validité et la conformité des traitements effectués.",
+            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
             "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes."
         ],
         "correctIndex": 3
@@ -537,9 +537,9 @@ const questionsData = [
         "cleanAnswer": "Ce sont les contrôles intégrés ou liés aux applications informatiques afin de vérifier la validité et la conformité des traitements effectués.",
         "type": "qcm",
         "options": [
-            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
             "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
+            "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
             "Ce sont les contrôles intégrés ou liés aux applications informatiques afin de vérifier la validité et la conformité des traitements effectués."
         ],
         "correctIndex": 3
@@ -553,10 +553,10 @@ const questionsData = [
         "cleanAnswer": "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
         "type": "qcm",
         "options": [
+            "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes.",
             "Ce sont les contrôles intégrés ou liés aux applications informatiques afin de vérifier la validité et la conformité des traitements effectués.",
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
             "Pour vérifier qu’ils existent, qu’ils fonctionnent correctement et qu’ils permettent effectivement de maîtriser les risques.",
-            "Ce sont les contrôles qui concernent l’environnement général informatique et qui permettent notamment d’assurer un fonctionnement maîtrisé des systèmes."
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit."
         ],
         "correctIndex": 2
     },
@@ -569,12 +569,12 @@ const questionsData = [
         "cleanAnswer": "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système.",
         "type": "qcm",
         "options": [
-            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
             "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
-            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système."
+            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
+            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système.",
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 37,
@@ -585,12 +585,12 @@ const questionsData = [
         "cleanAnswer": "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
         "type": "qcm",
         "options": [
-            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système.",
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
             "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
-            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
+            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 38,
@@ -601,12 +601,12 @@ const questionsData = [
         "cleanAnswer": "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
         "type": "qcm",
         "options": [
-            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
-            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système.",
             "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
+            "La piste d’audit, également appelée chemin de révision, permet de retracer et de suivre les opérations effectuées dans le système.",
+            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 39,
@@ -617,12 +617,12 @@ const questionsData = [
         "cleanAnswer": "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
         "type": "qcm",
         "options": [
+            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
             "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
-            "Elle est constituée des hommes, du matériel et des logiciels organisés pour collecter, stocker, traiter et communiquer les informations.",
             "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
-            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation."
+            "Il constitue le véhicule de la communication dans l’organisation."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 40,
@@ -633,12 +633,12 @@ const questionsData = [
         "cleanAnswer": "Il constitue le véhicule de la communication dans l’organisation.",
         "type": "qcm",
         "options": [
+            "Collecter, stocker, traiter et communiquer les informations.",
             "Il constitue le véhicule de la communication dans l’organisation.",
-            "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs.",
-            "Elle est constituée des hommes, du matériel et des logiciels organisés pour collecter, stocker, traiter et communiquer les informations.",
-            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation."
+            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
+            "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 41,
@@ -649,10 +649,10 @@ const questionsData = [
         "cleanAnswer": "Elle est constituée des hommes, du matériel et des logiciels organisés pour collecter, stocker, traiter et communiquer les informations.",
         "type": "qcm",
         "options": [
-            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
+            "Non. Elle s’inscrit dans une démarche plus globale de gouvernance informatique et concerne également la fonction d’audit interne.",
             "Elle est constituée des hommes, du matériel et des logiciels organisés pour collecter, stocker, traiter et communiquer les informations.",
-            "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs.",
-            "Collecter, stocker, traiter et communiquer les informations."
+            "Collecter, stocker, traiter et communiquer les informations.",
+            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation."
         ],
         "correctIndex": 1
     },
@@ -665,12 +665,12 @@ const questionsData = [
         "cleanAnswer": "Collecter, stocker, traiter et communiquer les informations.",
         "type": "qcm",
         "options": [
+            "Non. Elle s’inscrit dans une démarche plus globale de gouvernance informatique et concerne également la fonction d’audit interne.",
+            "Il constitue le véhicule de la communication dans l’organisation.",
             "Collecter, stocker, traiter et communiquer les informations.",
-            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
-            "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Elle est constituée des hommes, du matériel et des logiciels organisés pour collecter, stocker, traiter et communiquer les informations."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 43,
@@ -681,12 +681,12 @@ const questionsData = [
         "cleanAnswer": "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs.",
         "type": "qcm",
         "options": [
+            "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Il constitue le véhicule de la communication dans l’organisation.",
-            "C’est un ensemble de personnes, de procédures et de ressources qui recueillent l’information, la transforment et la distribuent au sein d’une organisation.",
-            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
-            "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs."
+            "Il coordonne les activités de l’organisation et lui permet ainsi d’atteindre ses objectifs.",
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 44,
@@ -699,8 +699,8 @@ const questionsData = [
         "options": [
             "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Non. Elle s’inscrit dans une démarche plus globale de gouvernance informatique et concerne également la fonction d’audit interne.",
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information."
+            "Elle permet d’apporter une assurance sur la qualité et la maîtrise du risque relatif au système d’information.",
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit."
         ],
         "correctIndex": 1
     },
@@ -713,12 +713,12 @@ const questionsData = [
         "cleanAnswer": "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
         "type": "qcm",
         "options": [
-            "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Non. Elle s’inscrit dans une démarche plus globale de gouvernance informatique et concerne également la fonction d’audit interne.",
             "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
+            "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 46,
@@ -729,12 +729,12 @@ const questionsData = [
         "cleanAnswer": "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
         "type": "qcm",
         "options": [
+            "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
             "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
-            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
-            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations.",
-            "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes."
+            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
+            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 47,
@@ -745,12 +745,12 @@ const questionsData = [
         "cleanAnswer": "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
         "type": "qcm",
         "options": [
+            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
             "Il est nécessaire de mettre en place une démarche d’audit afin de répondre aux enjeux liés à la maîtrise des systèmes d’information et aux risques informatiques.",
             "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
-            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
-            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré."
+            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 48,
@@ -762,7 +762,7 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elle permet d’éliminer quasiment toutes les erreurs humaines.",
-            "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
+            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
             "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
             "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations."
         ],
@@ -777,12 +777,12 @@ const questionsData = [
         "cleanAnswer": "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations.",
         "type": "qcm",
         "options": [
-            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations.",
             "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
+            "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
             "Elle permet d’éliminer quasiment toutes les erreurs humaines.",
-            "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes."
+            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 50,
@@ -793,12 +793,12 @@ const questionsData = [
         "cleanAnswer": "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
         "type": "qcm",
         "options": [
-            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
+            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
             "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
-            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
-            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés."
+            "Il peut notamment se produire lorsque le système d’information est fortement intégré sans possibilité de mettre en place des journaux d’événements.",
+            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 51,
@@ -809,12 +809,12 @@ const questionsData = [
         "cleanAnswer": "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
         "type": "qcm",
         "options": [
-            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
             "Le manque de traces matérielles peut entraîner un risque important de non-détection des erreurs, des malveillances ou des fraudes.",
-            "Ils peuvent accéder aux données, les modifier ou les supprimer.",
-            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré."
+            "Une séparation insuffisante des fonctions peut favoriser les erreurs, les malveillances ou les fraudes, notamment dans un système fortement intégré.",
+            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
+            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 52,
@@ -825,10 +825,10 @@ const questionsData = [
         "cleanAnswer": "Ils peuvent accéder aux données, les modifier ou les supprimer.",
         "type": "qcm",
         "options": [
-            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations.",
             "Elle permet d’éliminer quasiment toutes les erreurs humaines.",
+            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés.",
             "Ils peuvent accéder aux données, les modifier ou les supprimer.",
-            "Elles peuvent provenir d’erreurs humaines dans la conception, la maintenance et la mise en œuvre, ou d’utilisateurs non autorisés."
+            "Les erreurs de programmation peuvent entraîner un traitement incorrect de toutes les opérations."
         ],
         "correctIndex": 2
     },
@@ -841,10 +841,10 @@ const questionsData = [
         "cleanAnswer": "Elle peut s’appliquer à la fonction informatique, aux études informatiques, aux projets informatiques, à l’exploitation, à la planification informatique, aux réseaux et télécommunications, à la sécurité informatique, aux achats informatiques, à l’informatique locale ou décentralisée, à la qualité de service, à l’externalisation, à la gestion de parc et aux applications opérationnelles.",
         "type": "qcm",
         "options": [
-            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
-            "Elle peut s’appliquer à la fonction informatique, aux études informatiques, aux projets informatiques, à l’exploitation, à la planification informatique, aux réseaux et télécommunications, à la sécurité informatique, aux achats informatiques, à l’informatique locale ou décentralisée, à la qualité de service, à l’externalisation, à la gestion de parc et aux applications opérationnelles.",
             "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
-            "Audit interne versus audit externe ; • Audit de conformité, audit de sécurité et audit de performance."
+            "Elle peut s’appliquer à la fonction informatique, aux études informatiques, aux projets informatiques, à l’exploitation, à la planification informatique, aux réseaux et télécommunications, à la sécurité informatique, aux achats informatiques, à l’informatique locale ou décentralisée, à la qualité de service, à l’externalisation, à la gestion de parc et aux applications opérationnelles.",
+            "Audit interne versus audit externe ; • Audit de conformité, audit de sécurité et audit de performance.",
+            "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information."
         ],
         "correctIndex": 1
     },
@@ -874,12 +874,12 @@ const questionsData = [
         "cleanAnswer": "L’audit interne est une activité indépendante et objective qui donne à une organisation une assurance sur le degré de maîtrise de ses opérations, lui apporte des conseils pour les améliorer et contribue à créer de la valeur ajoutée.",
         "type": "qcm",
         "options": [
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
             "L’audit interne est une activité indépendante et objective qui donne à une organisation une assurance sur le degré de maîtrise de ses opérations, lui apporte des conseils pour les améliorer et contribue à créer de la valeur ajoutée.",
             "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes."
+            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
+            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 56,
@@ -890,12 +890,12 @@ const questionsData = [
         "cleanAnswer": "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
         "type": "qcm",
         "options": [
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
             "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
-            "L’audit interne est une activité indépendante et objective qui donne à une organisation une assurance sur le degré de maîtrise de ses opérations, lui apporte des conseils pour les améliorer et contribue à créer de la valeur ajoutée."
+            "L’audit interne est une activité indépendante et objective qui donne à une organisation une assurance sur le degré de maîtrise de ses opérations, lui apporte des conseils pour les améliorer et contribue à créer de la valeur ajoutée.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
+            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 57,
@@ -907,9 +907,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
+            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
-            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance."
+            "Il couvre les aspects légaux, réglementaires et internes."
         ],
         "correctIndex": 0
     },
@@ -922,10 +922,10 @@ const questionsData = [
         "cleanAnswer": "Ils sont destinés à la direction et au conseil d’administration.",
         "type": "qcm",
         "options": [
-            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs.",
-            "Audit interne versus audit externe ; • Audit de conformité, audit de sécurité et audit de performance.",
+            "L’organisation elle-même met généralement en œuvre les recommandations.",
+            "Les rapports internes sont destinés à la direction et au conseil d’administration, tandis que les rapports externes sont destinés notamment aux actionnaires, investisseurs et régulateurs.",
             "Ils sont destinés à la direction et au conseil d’administration.",
-            "Les rapports internes sont destinés à la direction et au conseil d’administration, tandis que les rapports externes sont destinés notamment aux actionnaires, investisseurs et régulateurs."
+            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs."
         ],
         "correctIndex": 2
     },
@@ -938,12 +938,12 @@ const questionsData = [
         "cleanAnswer": "L’organisation elle-même met généralement en œuvre les recommandations.",
         "type": "qcm",
         "options": [
-            "Il peut être réalisé de manière continue ou périodique selon les besoins de l’organisation.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
             "L’organisation elle-même met généralement en œuvre les recommandations.",
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information."
+            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
+            "Il peut être réalisé de manière continue ou périodique selon les besoins de l’organisation."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 60,
@@ -955,9 +955,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Il peut être réalisé de manière continue ou périodique selon les besoins de l’organisation.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
             "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires.",
-            "L’organisation elle-même met généralement en œuvre les recommandations.",
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information."
+            "L’organisation elle-même met généralement en œuvre les recommandations."
         ],
         "correctIndex": 0
     },
@@ -970,12 +970,12 @@ const questionsData = [
         "cleanAnswer": "Oui. Même s’ils sont employés par l’organisation, ils doivent maintenir leur indépendance et leur objectivité.",
         "type": "qcm",
         "options": [
-            "Il peut être réalisé de manière continue ou périodique selon les besoins de l’organisation.",
-            "Oui. Même s’ils sont employés par l’organisation, ils doivent maintenir leur indépendance et leur objectivité.",
+            "L’organisation elle-même met généralement en œuvre les recommandations.",
             "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
-            "L’organisation elle-même met généralement en œuvre les recommandations."
+            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
+            "Oui. Même s’ils sont employés par l’organisation, ils doivent maintenir leur indépendance et leur objectivité."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 62,
@@ -986,12 +986,12 @@ const questionsData = [
         "cleanAnswer": "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
         "type": "qcm",
         "options": [
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
-            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
             "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
+            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
+            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 63,
@@ -1002,12 +1002,12 @@ const questionsData = [
         "cleanAnswer": "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
         "type": "qcm",
         "options": [
-            "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
             "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
-            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
+            "Notamment les investisseurs et les régulateurs.",
+            "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
             "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 64,
@@ -1018,10 +1018,10 @@ const questionsData = [
         "cleanAnswer": "Notamment les investisseurs et les régulateurs.",
         "type": "qcm",
         "options": [
-            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs.",
+            "Il utilise notamment la revue des documents et politiques, les interviews avec les parties prenantes, les tests de conformité et les vérifications sur le terrain.",
             "Notamment les investisseurs et les régulateurs.",
             "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
-            "Ils sont présentés à la direction et aux parties prenantes concernées."
+            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs."
         ],
         "correctIndex": 1
     },
@@ -1034,12 +1034,12 @@ const questionsData = [
         "cleanAnswer": "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
         "type": "qcm",
         "options": [
+            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
             "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
-            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
             "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 66,
@@ -1050,12 +1050,12 @@ const questionsData = [
         "cleanAnswer": "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs.",
         "type": "qcm",
         "options": [
-            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs.",
+            "Ils sont destinés à la direction et au conseil d’administration.",
             "Les rapports internes sont destinés à la direction et au conseil d’administration, tandis que les rapports externes sont destinés notamment aux actionnaires, investisseurs et régulateurs.",
             "Notamment les investisseurs et les régulateurs.",
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
+            "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 67,
@@ -1066,12 +1066,12 @@ const questionsData = [
         "cleanAnswer": "Il est généralement réalisé annuellement ou selon les exigences réglementaires.",
         "type": "qcm",
         "options": [
-            "Il est généralement réalisé annuellement ou selon les exigences réglementaires.",
-            "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
+            "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives.",
             "Il peut être réalisé de manière continue ou périodique selon les besoins de l’organisation.",
-            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires."
+            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires.",
+            "Il est généralement réalisé annuellement ou selon les exigences réglementaires."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 68,
@@ -1082,12 +1082,12 @@ const questionsData = [
         "cleanAnswer": "L’auditeur externe est totalement indépendant de l’organisation auditée.",
         "type": "qcm",
         "options": [
-            "L’auditeur externe est totalement indépendant de l’organisation auditée.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
-            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité."
+            "Il est généralement réalisé annuellement ou selon les exigences réglementaires.",
+            "L’audit est une démarche méthodique effectuée par un agent compétent, indépendant, intègre et professionnel afin de porter un jugement par rapport à une norme sur les états financiers, le contrôle interne, l’organisation, une procédure ou une opération quelconque d’une entité.",
+            "L’auditeur externe est totalement indépendant de l’organisation auditée."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 69,
@@ -1100,7 +1100,7 @@ const questionsData = [
         "options": [
             "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
-            "Fournir une opinion indépendante sur la véracité et la fidélité des états financiers et rassurer les parties prenantes externes sur la fiabilité des informations financières.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
             "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance."
         ],
         "correctIndex": 0
@@ -1114,12 +1114,12 @@ const questionsData = [
         "cleanAnswer": "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
         "type": "qcm",
         "options": [
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
             "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
-            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers."
+            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
+            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 71,
@@ -1130,10 +1130,10 @@ const questionsData = [
         "cleanAnswer": "Les rapports internes sont destinés à la direction et au conseil d’administration, tandis que les rapports externes sont destinés notamment aux actionnaires, investisseurs et régulateurs.",
         "type": "qcm",
         "options": [
+            "Ils sont destinés à la direction et au conseil d’administration.",
             "Ils sont destinés aux actionnaires, aux investisseurs et aux régulateurs.",
-            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
             "Les rapports internes sont destinés à la direction et au conseil d’administration, tandis que les rapports externes sont destinés notamment aux actionnaires, investisseurs et régulateurs.",
-            "Ils sont destinés à la direction et au conseil d’administration."
+            "L’audit interne possède une indépendance relative, tandis que l’audit externe possède une indépendance totale."
         ],
         "correctIndex": 2
     },
@@ -1148,10 +1148,10 @@ const questionsData = [
         "options": [
             "L’audit interne possède une indépendance relative, tandis que l’audit externe possède une indépendance totale.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
-            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires.",
-            "Il est généralement réalisé annuellement ou selon les exigences réglementaires."
+            "Il est généralement réalisé annuellement ou selon les exigences réglementaires.",
+            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 73,
@@ -1162,12 +1162,12 @@ const questionsData = [
         "cleanAnswer": "L’audit interne possède une indépendance relative, tandis que l’audit externe possède une indépendance totale.",
         "type": "qcm",
         "options": [
+            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
             "L’audit interne possède une indépendance relative, tandis que l’audit externe possède une indépendance totale.",
-            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers.",
-            "L’audit interne peut être continu ou périodique, alors que l’audit externe est généralement annuel ou réalisé selon les exigences réglementaires."
+            "L’audit interne est une activité indépendante réalisée à l’intérieur de l’organisation et orientée vers l’amélioration des opérations, tandis que l’audit externe est une évaluation indépendante réalisée par un tiers, principalement orientée vers l’opinion sur les états financiers."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 74,
@@ -1178,10 +1178,10 @@ const questionsData = [
         "cleanAnswer": "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
         "type": "qcm",
         "options": [
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
             "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
             "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation)."
         ],
         "correctIndex": 2
     },
@@ -1194,9 +1194,9 @@ const questionsData = [
         "cleanAnswer": "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives.",
         "type": "qcm",
         "options": [
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
             "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
             "Améliorer la performance opérationnelle, identifier les inefficacités et les gaspillages et proposer des recommandations pour optimiser les ressources.",
+            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
             "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives."
         ],
         "correctIndex": 3
@@ -1210,12 +1210,12 @@ const questionsData = [
         "cleanAnswer": "Il couvre les aspects légaux, réglementaires et internes.",
         "type": "qcm",
         "options": [
-            "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives.",
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
             "Il couvre les aspects légaux, réglementaires et internes.",
-            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers."
+            "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
+            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
+            "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 77,
@@ -1226,12 +1226,12 @@ const questionsData = [
         "cleanAnswer": "Il utilise notamment la revue des documents et politiques, les interviews avec les parties prenantes, les tests de conformité et les vérifications sur le terrain.",
         "type": "qcm",
         "options": [
+            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
+            "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
             "Il utilise notamment la revue des documents et politiques, les interviews avec les parties prenantes, les tests de conformité et les vérifications sur le terrain.",
-            "Notamment les investisseurs et les régulateurs.",
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
-            "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données."
+            "Notamment les investisseurs et les régulateurs."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 78,
@@ -1242,12 +1242,12 @@ const questionsData = [
         "cleanAnswer": "La vérification de la conformité aux normes ISO et aux réglementations GDPR/RGPD.",
         "type": "qcm",
         "options": [
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
-            "L’audit de conformité.",
+            "La vérification de la conformité aux normes ISO et aux réglementations GDPR/RGPD.",
+            "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production.",
             "Le Règlement Général sur la Protection des Données, ou GDPR en anglais, est une réglementation européenne visant à protéger les données personnelles des individus au sein de l’Union européenne.",
-            "La vérification de la conformité aux normes ISO et aux réglementations GDPR/RGPD."
+            "L’audit de conformité."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 79,
@@ -1258,12 +1258,12 @@ const questionsData = [
         "cleanAnswer": "Le Règlement Général sur la Protection des Données, ou GDPR en anglais, est une réglementation européenne visant à protéger les données personnelles des individus au sein de l’Union européenne.",
         "type": "qcm",
         "options": [
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
+            "La vérification de la conformité aux normes ISO et aux réglementations GDPR/RGPD.",
             "Le Règlement Général sur la Protection des Données, ou GDPR en anglais, est une réglementation européenne visant à protéger les données personnelles des individus au sein de l’Union européenne.",
-            "La vérification de la conformité aux normes ISO et aux réglementations GDPR/RGPD."
+            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 80,
@@ -1274,12 +1274,12 @@ const questionsData = [
         "cleanAnswer": "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
         "type": "qcm",
         "options": [
-            "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
             "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
-            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes."
+            "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
+            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 81,
@@ -1290,12 +1290,12 @@ const questionsData = [
         "cleanAnswer": "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
         "type": "qcm",
         "options": [
-            "L’audit de sécurité.",
-            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
             "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations."
+            "L’audit de sécurité.",
+            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
+            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 82,
@@ -1306,9 +1306,9 @@ const questionsData = [
         "cleanAnswer": "Il couvre les aspects physiques, logiques et organisationnels de la sécurité.",
         "type": "qcm",
         "options": [
-            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
-            "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
             "L’audit interne couvre tous les aspects des opérations de l’organisation, tandis que l’audit externe est principalement axé sur les états financiers et les contrôles financiers.",
+            "Il couvre les aspects légaux, réglementaires et internes.",
+            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
             "Il couvre les aspects physiques, logiques et organisationnels de la sécurité."
         ],
         "correctIndex": 3
@@ -1322,12 +1322,12 @@ const questionsData = [
         "cleanAnswer": "Les réseaux, applications, données et infrastructures.",
         "type": "qcm",
         "options": [
-            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
-            "Elle peut s’appliquer à la fonction informatique, aux études informatiques, aux projets informatiques, à l’exploitation, à la planification informatique, aux réseaux et télécommunications, à la sécurité informatique, aux achats informatiques, à l’informatique locale ou décentralisée, à la qualité de service, à l’externalisation, à la gestion de parc et aux applications opérationnelles.",
             "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
-            "Les réseaux, applications, données et infrastructures."
+            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
+            "Les réseaux, applications, données et infrastructures.",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 84,
@@ -1338,10 +1338,10 @@ const questionsData = [
         "cleanAnswer": "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
         "type": "qcm",
         "options": [
-            "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
+            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
             "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
             "Un test de pénétration permettant d’identifier les failles de sécurité.",
-            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations."
+            "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes."
         ],
         "correctIndex": 1
     },
@@ -1354,12 +1354,12 @@ const questionsData = [
         "cleanAnswer": "Un test de pénétration permettant d’identifier les failles de sécurité.",
         "type": "qcm",
         "options": [
-            "Un test de pénétration permettant d’identifier les failles de sécurité.",
             "Il couvre les aspects physiques, logiques et organisationnels de la sécurité.",
-            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations.",
-            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses."
+            "Un test de pénétration permettant d’identifier les failles de sécurité.",
+            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
+            "Identifier les vulnérabilités et les risques de sécurité, évaluer l’efficacité des contrôles de sécurité et proposer des améliorations."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 86,
@@ -1370,12 +1370,12 @@ const questionsData = [
         "cleanAnswer": "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
         "type": "qcm",
         "options": [
-            "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
-            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
             "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations."
+            "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
+            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
+            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 87,
@@ -1386,12 +1386,12 @@ const questionsData = [
         "cleanAnswer": "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
         "type": "qcm",
         "options": [
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
-            "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
+            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
             "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
-            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation."
+            "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 88,
@@ -1402,12 +1402,12 @@ const questionsData = [
         "cleanAnswer": "Améliorer la performance opérationnelle, identifier les inefficacités et les gaspillages et proposer des recommandations pour optimiser les ressources.",
         "type": "qcm",
         "options": [
-            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
             "Améliorer la performance opérationnelle, identifier les inefficacités et les gaspillages et proposer des recommandations pour optimiser les ressources.",
+            "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives.",
             "Elle permet de proposer des recommandations destinées à améliorer la qualité et la sécurité du système d’information.",
-            "Assurer la conformité aux exigences légales et réglementaires, identifier les écarts par rapport aux normes et proposer des mesures correctives."
+            "L’audit de performance."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 89,
@@ -1418,9 +1418,9 @@ const questionsData = [
         "cleanAnswer": "Il couvre les processus opérationnels, les systèmes de gestion et les performances financières.",
         "type": "qcm",
         "options": [
-            "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
             "Il couvre tous les aspects des opérations de l’organisation et peut inclure des audits financiers, opérationnels, de conformité et de systèmes d’information.",
-            "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
+            "Parce qu’il est nécessaire de comprendre le système d’information et d’être capable d’apprécier la capacité des systèmes informatiques à assurer la fiabilité de l’information de gestion.",
+            "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
             "Il couvre les processus opérationnels, les systèmes de gestion et les performances financières."
         ],
         "correctIndex": 3
@@ -1434,12 +1434,12 @@ const questionsData = [
         "cleanAnswer": "Il peut inclure des audits de productivité, de qualité et de gestion des ressources.",
         "type": "qcm",
         "options": [
-            "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
+            "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production.",
+            "Il couvre les processus opérationnels, les systèmes de gestion et les performances financières.",
             "Il est principalement axé sur les états financiers et les contrôles financiers, mais peut également inclure des audits de conformité et de performance.",
-            "Il peut inclure des audits de productivité, de qualité et de gestion des ressources.",
-            "Améliorer la performance opérationnelle, identifier les inefficacités et les gaspillages et proposer des recommandations pour optimiser les ressources."
+            "Il peut inclure des audits de productivité, de qualité et de gestion des ressources."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 91,
@@ -1450,12 +1450,12 @@ const questionsData = [
         "cleanAnswer": "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
         "type": "qcm",
         "options": [
+            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
+            "Il utilise notamment la revue des documents et politiques, les interviews avec les parties prenantes, les tests de conformité et les vérifications sur le terrain.",
             "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
-            "Il couvre les processus opérationnels, les systèmes de gestion et les performances financières.",
-            "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production.",
-            "Il utilise notamment la revue des documents et politiques, les interviews avec les parties prenantes, les tests de conformité et les vérifications sur le terrain."
+            "Il couvre les processus opérationnels, les systèmes de gestion et les performances financières."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 92,
@@ -1466,12 +1466,12 @@ const questionsData = [
         "cleanAnswer": "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production.",
         "type": "qcm",
         "options": [
-            "L’audit de performance.",
             "L’analyse des indicateurs de performance, la revue des processus et systèmes de gestion, les interviews des parties prenantes et l’analyse des données.",
             "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
-            "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production."
+            "L’évaluation de la productivité des employés et l’analyse de l’efficacité des processus de production.",
+            "L’audit de performance."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 93,
@@ -1482,12 +1482,12 @@ const questionsData = [
         "cleanAnswer": "L’audit de conformité.",
         "type": "qcm",
         "options": [
-            "L’audit de sécurité.",
             "L’audit de conformité.",
+            "L’audit de performance.",
             "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources.",
-            "L’audit de performance."
+            "L’audit de sécurité."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 94,
@@ -1498,12 +1498,12 @@ const questionsData = [
         "cleanAnswer": "L’audit de sécurité.",
         "type": "qcm",
         "options": [
-            "L’audit de performance.",
-            "L’audit de conformité.",
             "L’audit de sécurité.",
-            "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources."
+            "L’audit de conformité.",
+            "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources.",
+            "L’audit de performance."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 95,
@@ -1514,12 +1514,12 @@ const questionsData = [
         "cleanAnswer": "L’audit de performance.",
         "type": "qcm",
         "options": [
-            "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources.",
-            "L’audit de performance.",
             "L’audit de conformité.",
-            "L’audit de sécurité."
+            "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources.",
+            "L’audit de sécurité.",
+            "L’audit de performance."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 96,
@@ -1530,9 +1530,9 @@ const questionsData = [
         "cleanAnswer": "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources.",
         "type": "qcm",
         "options": [
+            "L’audit de performance.",
             "L’audit de conformité.",
             "L’audit de sécurité.",
-            "L’audit de performance.",
             "L’audit de conformité vérifie le respect des exigences, l’audit de sécurité vérifie la protection contre les menaces et vulnérabilités, tandis que l’audit de performance cherche à améliorer l’efficacité, l’efficience et l’utilisation des ressources."
         ],
         "correctIndex": 3
@@ -1546,9 +1546,9 @@ const questionsData = [
         "cleanAnswer": "Deux types.",
         "type": "qcm",
         "options": [
+            "Audit interne versus audit externe ; • Audit de conformité, audit de sécurité et audit de performance.",
             "L’audit contractuel et l’audit légal.",
             "Le document le présente comme l’un des deux types de missions d’audit informatique, mais ne donne pas dans l’extrait fourni une définition détaillée supplémentaire.",
-            "Audit interne versus audit externe ; • Audit de conformité, audit de sécurité et audit de performance.",
             "Deux types."
         ],
         "correctIndex": 3
@@ -1562,12 +1562,12 @@ const questionsData = [
         "cleanAnswer": "L’audit contractuel et l’audit légal.",
         "type": "qcm",
         "options": [
-            "Deux types.",
-            "L’audit contractuel et l’audit légal.",
             "Le document le présente comme l’un des deux types de missions d’audit informatique, mais ne donne pas dans l’extrait fourni une définition détaillée supplémentaire.",
-            "Le document le présente comme le deuxième type de mission d’audit informatique, sans fournir dans l’extrait une définition détaillée supplémentaire."
+            "Le document le présente comme le deuxième type de mission d’audit informatique, sans fournir dans l’extrait une définition détaillée supplémentaire.",
+            "L’audit contractuel et l’audit légal.",
+            "Deux types."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 99,
@@ -1594,12 +1594,12 @@ const questionsData = [
         "cleanAnswer": "Le document le présente comme le deuxième type de mission d’audit informatique, sans fournir dans l’extrait une définition détaillée supplémentaire.",
         "type": "qcm",
         "options": [
-            "Le document le présente comme l’un des deux types de missions d’audit informatique, mais ne donne pas dans l’extrait fourni une définition détaillée supplémentaire.",
+            "Le document le présente comme le deuxième type de mission d’audit informatique, sans fournir dans l’extrait une définition détaillée supplémentaire.",
             "L’audit contractuel et l’audit légal.",
-            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables.",
-            "Le document le présente comme le deuxième type de mission d’audit informatique, sans fournir dans l’extrait une définition détaillée supplémentaire."
+            "Le document le présente comme l’un des deux types de missions d’audit informatique, mais ne donne pas dans l’extrait fourni une définition détaillée supplémentaire.",
+            "C’est une évaluation indépendante des états financiers d’une organisation par un auditeur externe, généralement un cabinet d’audit, afin de fournir une opinion sur leur exactitude et leur conformité aux normes comptables."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 101,
@@ -1610,12 +1610,12 @@ const questionsData = [
         "cleanAnswer": "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique.",
         "type": "qcm",
         "options": [
-            "Il modélise les concepts et les processus d’un domaine métier.",
-            "Il décrit les éléments techniques d’un système.",
             "Il décrit les données utilisées dans une organisation.",
-            "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique."
+            "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique.",
+            "Il modélise les concepts et les processus d’un domaine métier.",
+            "Il décrit la structure d’une organisation."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 102,
@@ -1626,12 +1626,12 @@ const questionsData = [
         "cleanAnswer": "On peut le comparer à un dictionnaire ou une encyclopédie adaptée à un sujet particulier.",
         "type": "qcm",
         "options": [
-            "On peut le comparer à un dictionnaire ou une encyclopédie adaptée à un sujet particulier.",
-            "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
             "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
-            "Elle consiste à créer un modèle conceptuel du référentiel."
+            "Elle consiste à créer un modèle conceptuel du référentiel.",
+            "On peut le comparer à un dictionnaire ou une encyclopédie adaptée à un sujet particulier.",
+            "Elle consiste à mettre régulièrement à jour le référentiel."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 103,
@@ -1642,12 +1642,12 @@ const questionsData = [
         "cleanAnswer": "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
         "type": "qcm",
         "options": [
+            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
             "Il rend les échanges plus efficaces grâce à l’utilisation d’un langage commun.",
             "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
-            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
             "Il permet de disposer d’informations vérifiables et fiables."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 104,
@@ -1658,12 +1658,12 @@ const questionsData = [
         "cleanAnswer": "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
         "type": "qcm",
         "options": [
-            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
-            "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
+            "Il modélise les concepts et les processus d’un domaine métier.",
             "Il rend les échanges plus efficaces grâce à l’utilisation d’un langage commun.",
-            "Il modélise les concepts et les processus d’un domaine métier."
+            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
+            "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 105,
@@ -1674,12 +1674,12 @@ const questionsData = [
         "cleanAnswer": "Il organise les connaissances de manière logique et hiérarchisée.",
         "type": "qcm",
         "options": [
-            "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique.",
-            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
             "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
-            "Il organise les connaissances de manière logique et hiérarchisée."
+            "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique.",
+            "Il organise les connaissances de manière logique et hiérarchisée.",
+            "Il décrit la structure d’une organisation."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 106,
@@ -1691,11 +1691,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
-            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
             "Il rend les échanges plus efficaces grâce à l’utilisation d’un langage commun.",
-            "Ils rendent les échanges plus clairs et plus précis."
+            "Ils rendent les échanges plus clairs et plus précis.",
+            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 107,
@@ -1706,12 +1706,12 @@ const questionsData = [
         "cleanAnswer": "Il permet de disposer d’informations vérifiables et fiables.",
         "type": "qcm",
         "options": [
-            "Il permet de disposer d’informations vérifiables et fiables.",
-            "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
+            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification.",
             "Un référentiel est un ensemble structuré de données, d’informations ou de connaissances servant de base de référence pour un domaine spécifique.",
-            "Il permet à tous les acteurs d’un domaine d’utiliser les mêmes termes avec la même signification."
+            "Il permet de définir un vocabulaire commun, de structurer l’information, de faciliter la communication et d’assurer la cohérence.",
+            "Il permet de disposer d’informations vérifiables et fiables."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 108,
@@ -1722,12 +1722,12 @@ const questionsData = [
         "cleanAnswer": "Les référentiels de données, les référentiels métiers, les référentiels techniques informatiques et les référentiels organisationnels.",
         "type": "qcm",
         "options": [
-            "Il décrit les éléments techniques d’un système.",
-            "Il décrit les données utilisées dans une organisation.",
             "Les référentiels de données, les référentiels métiers, les référentiels techniques informatiques et les référentiels organisationnels.",
+            "Il décrit les données utilisées dans une organisation.",
+            "Il décrit les éléments techniques d’un système.",
             "Le référentiel des clients et le référentiel des produits."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 109,
@@ -1738,8 +1738,8 @@ const questionsData = [
         "cleanAnswer": "Il décrit les données utilisées dans une organisation.",
         "type": "qcm",
         "options": [
-            "Il décrit la structure d’une organisation.",
             "Il modélise les concepts et les processus d’un domaine métier.",
+            "Il décrit la structure d’une organisation.",
             "Il décrit les éléments techniques d’un système.",
             "Il décrit les données utilisées dans une organisation."
         ],
@@ -1754,12 +1754,12 @@ const questionsData = [
         "cleanAnswer": "Le référentiel des clients et le référentiel des produits.",
         "type": "qcm",
         "options": [
+            "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
             "Le référentiel des clients et le référentiel des produits.",
             "Un référentiel des composants logiciels.",
-            "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
-            "Il décrit les données utilisées dans une organisation."
+            "Un référentiel des processus de fabrication."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 111,
@@ -1770,12 +1770,12 @@ const questionsData = [
         "cleanAnswer": "Il modélise les concepts et les processus d’un domaine métier.",
         "type": "qcm",
         "options": [
+            "Un référentiel des processus de fabrication.",
             "Il modélise les concepts et les processus d’un domaine métier.",
-            "Il décrit les éléments techniques d’un système.",
             "Il décrit la structure d’une organisation.",
-            "Il décrit les données utilisées dans une organisation."
+            "Il décrit les éléments techniques d’un système."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 112,
@@ -1786,12 +1786,12 @@ const questionsData = [
         "cleanAnswer": "Un référentiel des processus de fabrication.",
         "type": "qcm",
         "options": [
-            "Un référentiel des composants logiciels.",
-            "Il modélise les concepts et les processus d’un domaine métier.",
             "Un référentiel des processus de fabrication.",
-            "Un organigramme ou un référentiel décrivant les rôles et responsabilités."
+            "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
+            "Un référentiel des composants logiciels.",
+            "Il modélise les concepts et les processus d’un domaine métier."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 113,
@@ -1802,12 +1802,12 @@ const questionsData = [
         "cleanAnswer": "Il décrit les éléments techniques d’un système.",
         "type": "qcm",
         "options": [
-            "Il décrit les données utilisées dans une organisation.",
             "Il décrit la structure d’une organisation.",
-            "Il modélise les concepts et les processus d’un domaine métier.",
-            "Il décrit les éléments techniques d’un système."
+            "Il décrit les éléments techniques d’un système.",
+            "Il décrit les données utilisées dans une organisation.",
+            "Il modélise les concepts et les processus d’un domaine métier."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 114,
@@ -1818,12 +1818,12 @@ const questionsData = [
         "cleanAnswer": "Un référentiel des composants logiciels.",
         "type": "qcm",
         "options": [
-            "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
-            "Il décrit les éléments techniques d’un système.",
+            "Un référentiel des composants logiciels.",
             "Un référentiel des processus de fabrication.",
-            "Un référentiel des composants logiciels."
+            "Il décrit les éléments techniques d’un système.",
+            "Un organigramme ou un référentiel décrivant les rôles et responsabilités."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 115,
@@ -1834,12 +1834,12 @@ const questionsData = [
         "cleanAnswer": "Il décrit la structure d’une organisation.",
         "type": "qcm",
         "options": [
-            "Il décrit la structure d’une organisation.",
             "Il modélise les concepts et les processus d’un domaine métier.",
             "Il décrit les éléments techniques d’un système.",
+            "Il décrit la structure d’une organisation.",
             "Il décrit les données utilisées dans une organisation."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 116,
@@ -1850,12 +1850,12 @@ const questionsData = [
         "cleanAnswer": "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
         "type": "qcm",
         "options": [
-            "Un référentiel des composants logiciels.",
-            "Un organigramme ou un référentiel décrivant les rôles et responsabilités.",
             "Un référentiel des processus de fabrication.",
-            "Le référentiel des clients et le référentiel des produits."
+            "Le référentiel des clients et le référentiel des produits.",
+            "Un référentiel des composants logiciels.",
+            "Un organigramme ou un référentiel décrivant les rôles et responsabilités."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 117,
@@ -1866,12 +1866,12 @@ const questionsData = [
         "cleanAnswer": "COBIT signifie Control Objectives for Information and related Technology.",
         "type": "qcm",
         "options": [
-            "Il constitue un référentiel concernant les contrôles applicatifs.",
             "CMMI signifie Capability Maturity Model Integration.",
-            "COBIT signifie Control Objectives for Information and related Technology.",
-            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information."
+            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
+            "Il constitue un référentiel concernant les contrôles applicatifs.",
+            "COBIT signifie Control Objectives for Information and related Technology."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 118,
@@ -1884,8 +1884,8 @@ const questionsData = [
         "options": [
             "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
             "Il constitue un référentiel concernant les contrôles applicatifs.",
-            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
-            "COBIT."
+            "COBIT.",
+            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques."
         ],
         "correctIndex": 0
     },
@@ -1898,12 +1898,12 @@ const questionsData = [
         "cleanAnswer": "Val IT permet d’évaluer la création de valeur par projet ou par portefeuille de projets.",
         "type": "qcm",
         "options": [
-            "Val IT permet d’évaluer la création de valeur par projet ou par portefeuille de projets.",
+            "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information.",
             "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
             "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
-            "Il constitue un référentiel concernant les contrôles applicatifs."
+            "Val IT permet d’évaluer la création de valeur par projet ou par portefeuille de projets."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 120,
@@ -1914,12 +1914,12 @@ const questionsData = [
         "cleanAnswer": "Risk IT a pour objectif d’améliorer la maîtrise des risques liés à l’informatique.",
         "type": "qcm",
         "options": [
-            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
-            "CMMI signifie Capability Maturity Model Integration.",
+            "Val IT permet d’évaluer la création de valeur par projet ou par portefeuille de projets.",
             "Risk IT a pour objectif d’améliorer la maîtrise des risques liés à l’informatique.",
-            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques."
+            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
+            "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 121,
@@ -1930,12 +1930,12 @@ const questionsData = [
         "cleanAnswer": "Il constitue un référentiel concernant les contrôles applicatifs.",
         "type": "qcm",
         "options": [
+            "Il constitue un référentiel concernant les contrôles applicatifs.",
             "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
             "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
-            "COBIT signifie Control Objectives for Information and related Technology.",
-            "Il constitue un référentiel concernant les contrôles applicatifs."
+            "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 122,
@@ -1946,12 +1946,12 @@ const questionsData = [
         "cleanAnswer": "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information.",
         "type": "qcm",
         "options": [
-            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information.",
-            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
             "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information.",
-            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques."
+            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
+            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
+            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 123,
@@ -1962,12 +1962,12 @@ const questionsData = [
         "cleanAnswer": "CMMI signifie Capability Maturity Model Integration.",
         "type": "qcm",
         "options": [
+            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
             "COBIT signifie Control Objectives for Information and related Technology.",
-            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
-            "CMMI signifie Capability Maturity Model Integration.",
-            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques."
+            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
+            "CMMI signifie Capability Maturity Model Integration."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 124,
@@ -1994,10 +1994,10 @@ const questionsData = [
         "cleanAnswer": "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
         "type": "qcm",
         "options": [
-            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
-            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
             "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information.",
-            "Il constitue un référentiel concernant les contrôles applicatifs."
+            "ITIL est un recueil de bonnes pratiques concernant les niveaux et le support des services informatiques.",
+            "Il constitue un référentiel concernant les contrôles applicatifs.",
+            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques."
         ],
         "correctIndex": 1
     },
@@ -2012,8 +2012,8 @@ const questionsData = [
         "options": [
             "Le cours indique que cela n’existe pas.",
             "Non, le cours indique que cela n’existe pas.",
-            "Le CISM.",
-            "Le cours présente ISO 20000 comme un sous-ensemble d’ITIL."
+            "La certification CMMI.",
+            "Le CISM."
         ],
         "correctIndex": 1
     },
@@ -2026,12 +2026,12 @@ const questionsData = [
         "cleanAnswer": "Le cours indique que cela n’existe pas.",
         "type": "qcm",
         "options": [
-            "Non, le cours indique que cela n’existe pas.",
+            "La certification CMMI.",
             "Le CISM.",
-            "Le cours indique que cela n’existe pas.",
-            "La certification CMMI."
+            "Non, le cours indique que cela n’existe pas.",
+            "Le cours indique que cela n’existe pas."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 128,
@@ -2042,12 +2042,12 @@ const questionsData = [
         "cleanAnswer": "La certification CMMI.",
         "type": "qcm",
         "options": [
-            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques.",
             "La certification CMMI.",
             "Non, le cours indique que cela n’existe pas.",
-            "Le cours indique que cela n’existe pas."
+            "La norme ISO 20000.",
+            "Il constitue une démarche d’évaluation de la qualité de la gestion des projets informatiques."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 129,
@@ -2058,12 +2058,12 @@ const questionsData = [
         "cleanAnswer": "La norme ISO 20000.",
         "type": "qcm",
         "options": [
-            "La norme ISO 20000.",
+            "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue.",
             "Elle peut s’appliquer à la fonction informatique, aux études informatiques, aux projets informatiques, à l’exploitation, à la planification informatique, aux réseaux et télécommunications, à la sécurité informatique, aux achats informatiques, à l’informatique locale ou décentralisée, à la qualité de service, à l’externalisation, à la gestion de parc et aux applications opérationnelles.",
             "La certification CMMI.",
-            "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue."
+            "La norme ISO 20000."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 130,
@@ -2074,12 +2074,12 @@ const questionsData = [
         "cleanAnswer": "Le cours présente ISO 20000 comme un sous-ensemble d’ITIL.",
         "type": "qcm",
         "options": [
-            "Le cours présente ISO 20000 comme un sous-ensemble d’ITIL.",
             "La norme ISO 20000.",
             "Le cours indique que cela n’existe pas.",
+            "Le cours présente ISO 20000 comme un sous-ensemble d’ITIL.",
             "Non, le cours indique que cela n’existe pas."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 131,
@@ -2090,12 +2090,12 @@ const questionsData = [
         "cleanAnswer": "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
         "type": "qcm",
         "options": [
-            "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins.",
-            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
             "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue.",
-            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes."
+            "Il vise à vérifier que les processus, systèmes et opérations d’une organisation respectent les lois, règlements, normes et politiques internes.",
+            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
+            "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 132,
@@ -2106,12 +2106,12 @@ const questionsData = [
         "cleanAnswer": "Elle a été créée par l’American Institute of Certified Public Accountants (AICPA).",
         "type": "qcm",
         "options": [
-            "CISA signifie Certified Information Systems Auditor.",
-            "Elle a été créée par l’American Institute of Certified Public Accountants (AICPA).",
+            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
+            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
             "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins.",
-            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus."
+            "Elle a été créée par l’American Institute of Certified Public Accountants (AICPA)."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 133,
@@ -2122,7 +2122,7 @@ const questionsData = [
         "cleanAnswer": "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins.",
         "type": "qcm",
         "options": [
-            "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue.",
+            "Elle a été créée par l’American Institute of Certified Public Accountants (AICPA).",
             "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins.",
             "La certification CMMI.",
             "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus."
@@ -2139,11 +2139,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
-            "Elle a été créée pour éviter que les organismes aient à supporter successivement plusieurs audits informatiques sur des sujets voisins.",
             "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue.",
+            "La certification CMMI.",
             "La norme ISO 20000."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 135,
@@ -2154,12 +2154,12 @@ const questionsData = [
         "cleanAnswer": "SAS 70 a été remplacée par la norme ISAE 3402.",
         "type": "qcm",
         "options": [
-            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
-            "SAS 70 a été remplacée par la norme ISAE 3402.",
+            "La norme ISO 20000.",
             "En juin 2011.",
-            "La norme ISO 20000."
+            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus.",
+            "SAS 70 a été remplacée par la norme ISAE 3402."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 136,
@@ -2170,12 +2170,12 @@ const questionsData = [
         "cleanAnswer": "En juin 2011.",
         "type": "qcm",
         "options": [
-            "SAS 70 a été remplacée par la norme ISAE 3402.",
             "En juin 2011.",
-            "Ils vérifient que les processus mis en œuvre offrent la qualité de service attendue.",
-            "SAS 70 signifie Statement on Auditing Standards no 70. Il s’agit d’une norme créée pour les organismes concernés par l’externalisation et les audits de leurs processus."
+            "Le cours indique que cela n’existe pas.",
+            "Non, le cours indique que cela n’existe pas.",
+            "SAS 70 a été remplacée par la norme ISAE 3402."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 137,
@@ -2186,12 +2186,12 @@ const questionsData = [
         "cleanAnswer": "On certifie les auditeurs informatiques.",
         "type": "qcm",
         "options": [
-            "L’AFAI est l’Association Française de l’Audit et du Conseil Informatique.",
-            "Elle est organisée par l’ISACA.",
+            "CISA signifie Certified Information Systems Auditor.",
             "On certifie les auditeurs informatiques.",
-            "Le CISM."
+            "La certification CISA.",
+            "L’AFAI est l’Association Française de l’Audit et du Conseil Informatique."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 138,
@@ -2203,8 +2203,8 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "La certification CISA.",
+            "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information.",
             "Le CISM.",
-            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
             "Elle est organisée par l’ISACA."
         ],
         "correctIndex": 0
@@ -2220,8 +2220,8 @@ const questionsData = [
         "options": [
             "CISA signifie Certified Information Systems Auditor.",
             "CISM signifie Certified Information Security Manager.",
-            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
-            "ISACA signifie Information Systems Audit & Control Association."
+            "ISACA signifie Information Systems Audit & Control Association.",
+            "L’IFACI délivre la certification CIA (Certified Internal Auditor)."
         ],
         "correctIndex": 0
     },
@@ -2234,12 +2234,12 @@ const questionsData = [
         "cleanAnswer": "Elle est organisée par l’ISACA.",
         "type": "qcm",
         "options": [
+            "Le CISM est également délivré par l’ISACA.",
+            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports.",
             "La certification CISA.",
-            "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information.",
-            "Elle est organisée par l’ISACA.",
-            "C’est l’association internationale des auditeurs informatiques, notamment connue pour son corpus normatif et son knowledge center."
+            "Elle est organisée par l’ISACA."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 141,
@@ -2251,11 +2251,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "CISM signifie Certified Information Security Manager.",
-            "IFACI signifie Institut Français de l’Audit et du Contrôle Interne.",
             "CISA signifie Certified Information Systems Auditor.",
-            "ISACA signifie Information Systems Audit & Control Association."
+            "ISACA signifie Information Systems Audit & Control Association.",
+            "IFACI signifie Institut Français de l’Audit et du Contrôle Interne."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 142,
@@ -2267,11 +2267,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Le CISM est également délivré par l’ISACA.",
-            "L’AFAI est l’Association Française de l’Audit et du Conseil Informatique.",
             "C’est l’association internationale des auditeurs informatiques, notamment connue pour son corpus normatif et son knowledge center.",
-            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports."
+            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports.",
+            "Elle est organisée par l’ISACA."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 143,
@@ -2283,9 +2283,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "L’AFAI est l’Association Française de l’Audit et du Conseil Informatique.",
-            "On certifie les auditeurs informatiques.",
+            "IFACI signifie Institut Français de l’Audit et du Contrôle Interne.",
             "C’est l’association internationale des auditeurs informatiques, notamment connue pour son corpus normatif et son knowledge center.",
-            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports."
+            "On certifie les auditeurs informatiques."
         ],
         "correctIndex": 0
     },
@@ -2298,12 +2298,12 @@ const questionsData = [
         "cleanAnswer": "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports.",
         "type": "qcm",
         "options": [
+            "Elle est organisée par l’ISACA.",
             "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports.",
             "C’est l’association internationale des auditeurs informatiques, notamment connue pour son corpus normatif et son knowledge center.",
-            "IFACI signifie Institut Français de l’Audit et du Contrôle Interne.",
-            "L’AFAI est l’Association Française de l’Audit et du Conseil Informatique."
+            "IFACI signifie Institut Français de l’Audit et du Contrôle Interne."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 145,
@@ -2314,10 +2314,10 @@ const questionsData = [
         "cleanAnswer": "Le CISM.",
         "type": "qcm",
         "options": [
-            "La certification CISA.",
+            "CISM signifie Certified Information Security Manager.",
             "Le CISM.",
-            "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information.",
-            "Le CISM est également délivré par l’ISACA."
+            "La certification CISA.",
+            "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information."
         ],
         "correctIndex": 1
     },
@@ -2330,10 +2330,10 @@ const questionsData = [
         "cleanAnswer": "CISM signifie Certified Information Security Manager.",
         "type": "qcm",
         "options": [
-            "CISA signifie Certified Information Systems Auditor.",
+            "ISACA signifie Information Systems Audit & Control Association.",
             "CISM signifie Certified Information Security Manager.",
-            "Le CISM est également délivré par l’ISACA.",
-            "ISACA signifie Information Systems Audit & Control Association."
+            "Le CISM.",
+            "CISA signifie Certified Information Systems Auditor."
         ],
         "correctIndex": 1
     },
@@ -2346,12 +2346,12 @@ const questionsData = [
         "cleanAnswer": "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information.",
         "type": "qcm",
         "options": [
+            "Le CISM est également délivré par l’ISACA.",
+            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
             "Il s’agit d’une certification professionnelle destinée aux managers en sécurité de l’information.",
-            "La certification CISA.",
-            "Le CISM.",
-            "Le CISM est également délivré par l’ISACA."
+            "Le CISM."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 148,
@@ -2362,9 +2362,9 @@ const questionsData = [
         "cleanAnswer": "Le CISM est également délivré par l’ISACA.",
         "type": "qcm",
         "options": [
-            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
             "Elle est organisée par l’ISACA.",
-            "Le CISM.",
+            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports.",
+            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
             "Le CISM est également délivré par l’ISACA."
         ],
         "correctIndex": 3
@@ -2378,12 +2378,12 @@ const questionsData = [
         "cleanAnswer": "IFACI signifie Institut Français de l’Audit et du Contrôle Interne.",
         "type": "qcm",
         "options": [
-            "CISM signifie Certified Information Security Manager.",
             "IFACI signifie Institut Français de l’Audit et du Contrôle Interne.",
-            "ISACA signifie Information Systems Audit & Control Association.",
-            "CISA signifie Certified Information Systems Auditor."
+            "CISA signifie Certified Information Systems Auditor.",
+            "CISM signifie Certified Information Security Manager.",
+            "Elle constitue le chapitre français de l’ISACA et fournit de nombreux supports."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 150,
@@ -2396,10 +2396,10 @@ const questionsData = [
         "options": [
             "CISA signifie Certified Information Systems Auditor.",
             "La certification CISA.",
-            "L’IFACI délivre la certification CIA (Certified Internal Auditor).",
-            "CISM signifie Certified Information Security Manager."
+            "CISM signifie Certified Information Security Manager.",
+            "L’IFACI délivre la certification CIA (Certified Internal Auditor)."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 151,
@@ -2413,7 +2413,7 @@ const questionsData = [
             "Les données sont plus facilement accessibles et analysables.",
             "Les données sont mieux structurées et plus cohérentes.",
             "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts.",
-            "Les processus sont optimisés et les erreurs sont réduites."
+            "Ils rendent les échanges plus clairs et plus précis."
         ],
         "correctIndex": 2
     },
@@ -2427,9 +2427,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Les données sont plus facilement accessibles et analysables.",
-            "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts.",
+            "Ils rendent les échanges plus clairs et plus précis.",
             "Les données sont mieux structurées et plus cohérentes.",
-            "Ils rendent les échanges plus clairs et plus précis."
+            "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts."
         ],
         "correctIndex": 2
     },
@@ -2443,11 +2443,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts.",
+            "Les données sont plus facilement accessibles et analysables.",
             "Les données sont mieux structurées et plus cohérentes.",
-            "Ils rendent les échanges plus clairs et plus précis.",
-            "Les données sont plus facilement accessibles et analysables."
+            "Ils rendent les échanges plus clairs et plus précis."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 154,
@@ -2458,8 +2458,8 @@ const questionsData = [
         "cleanAnswer": "Les données sont plus facilement accessibles et analysables.",
         "type": "qcm",
         "options": [
-            "Ils rendent les échanges plus clairs et plus précis.",
             "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts.",
+            "Ils rendent les échanges plus clairs et plus précis.",
             "Les données sont mieux structurées et plus cohérentes.",
             "Les données sont plus facilement accessibles et analysables."
         ],
@@ -2474,12 +2474,12 @@ const questionsData = [
         "cleanAnswer": "Les processus sont optimisés et les erreurs sont réduites.",
         "type": "qcm",
         "options": [
-            "Ils rendent les échanges plus clairs et plus précis.",
-            "Les processus sont optimisés et les erreurs sont réduites.",
+            "Les données sont plus facilement accessibles et analysables.",
             "Ils permettent l’amélioration de la qualité des données, la facilitation de la communication, l’amélioration de la prise de décision et la réduction des coûts.",
-            "Les données sont mieux structurées et plus cohérentes."
+            "Les processus sont optimisés et les erreurs sont réduites.",
+            "Ils rendent les échanges plus clairs et plus précis."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 156,
@@ -2490,12 +2490,12 @@ const questionsData = [
         "cleanAnswer": "Il y a quatre étapes principales : définition des besoins, modélisation, implémentation et maintenance.",
         "type": "qcm",
         "options": [
-            "Elle consiste à créer un modèle conceptuel du référentiel.",
             "Il y a quatre étapes principales : définition des besoins, modélisation, implémentation et maintenance.",
+            "Elle consiste à identifier les besoins de l’organisation.",
             "Elle consiste à mettre régulièrement à jour le référentiel.",
-            "Elle consiste à identifier les besoins de l’organisation."
+            "Elle consiste à créer un modèle conceptuel du référentiel."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 157,
@@ -2506,12 +2506,12 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à identifier les besoins de l’organisation.",
         "type": "qcm",
         "options": [
-            "Elle consiste à mettre régulièrement à jour le référentiel.",
+            "Elle consiste à identifier les besoins de l’organisation.",
             "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
-            "Elle consiste à créer un modèle conceptuel du référentiel.",
-            "Elle consiste à identifier les besoins de l’organisation."
+            "Elle consiste à mettre régulièrement à jour le référentiel.",
+            "Il y a quatre étapes principales : définition des besoins, modélisation, implémentation et maintenance."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 158,
@@ -2522,12 +2522,12 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à créer un modèle conceptuel du référentiel.",
         "type": "qcm",
         "options": [
-            "Elle consiste à mettre régulièrement à jour le référentiel.",
-            "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
+            "Elle consiste à identifier les besoins de l’organisation.",
             "Elle consiste à créer un modèle conceptuel du référentiel.",
-            "Elle consiste à identifier les besoins de l’organisation."
+            "Elle consiste à mettre régulièrement à jour le référentiel.",
+            "Elle consiste à mettre en place le référentiel dans un outil de gestion de données."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 159,
@@ -2538,9 +2538,9 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
         "type": "qcm",
         "options": [
-            "Elle consiste à mettre régulièrement à jour le référentiel.",
             "Elle consiste à identifier les besoins de l’organisation.",
             "Elle consiste à créer un modèle conceptuel du référentiel.",
+            "Elle consiste à mettre régulièrement à jour le référentiel.",
             "Elle consiste à mettre en place le référentiel dans un outil de gestion de données."
         ],
         "correctIndex": 3
@@ -2554,9 +2554,9 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à mettre régulièrement à jour le référentiel.",
         "type": "qcm",
         "options": [
-            "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
             "Elle consiste à créer un modèle conceptuel du référentiel.",
             "Elle consiste à identifier les besoins de l’organisation.",
+            "Elle consiste à mettre en place le référentiel dans un outil de gestion de données.",
             "Elle consiste à mettre régulièrement à jour le référentiel."
         ],
         "correctIndex": 3
@@ -2572,10 +2572,10 @@ const questionsData = [
         "options": [
             "Elles offrent un cadre structuré permettant aux auditeurs de suivre des procédures standardisées et reconnues internationalement.",
             "La certification CISA.",
-            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information.",
-            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes."
+            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
+            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 162,
@@ -2586,12 +2586,12 @@ const questionsData = [
         "cleanAnswer": "Elles offrent un cadre structuré permettant aux auditeurs de suivre des procédures standardisées et reconnues internationalement.",
         "type": "qcm",
         "options": [
-            "ISO 27001 et ISO 27002.",
+            "Elles offrent un cadre structuré permettant aux auditeurs de suivre des procédures standardisées et reconnues internationalement.",
             "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information.",
             "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
-            "Elles offrent un cadre structuré permettant aux auditeurs de suivre des procédures standardisées et reconnues internationalement."
+            "ISO 27001 et ISO 27002."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 163,
@@ -2603,11 +2603,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Risk IT.",
-            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information.",
             "ITIL.",
-            "COBIT."
+            "COBIT.",
+            "COBIT constitue le principal référentiel des auditeurs informatiques et sert notamment de cadre pour la gouvernance et la gestion des technologies de l’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 164,
@@ -2618,12 +2618,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
         "type": "qcm",
         "options": [
-            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
-            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information.",
+            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
+            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
             "La certification CISA.",
-            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes."
+            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 165,
@@ -2634,12 +2634,12 @@ const questionsData = [
         "cleanAnswer": "ISO 27001 et ISO 27002.",
         "type": "qcm",
         "options": [
-            "L’ISO 27002 est un code de bonnes pratiques en matière de management de la sécurité des systèmes d’information.",
             "ISO 27001 et ISO 27002.",
+            "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
             "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
             "COBIT."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 166,
@@ -2650,12 +2650,12 @@ const questionsData = [
         "cleanAnswer": "Elles encouragent l’amélioration continue des processus et des systèmes.",
         "type": "qcm",
         "options": [
-            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
+            "La certification CISA.",
+            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information.",
             "Elles encouragent l’amélioration continue des processus et des systèmes.",
-            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
-            "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information."
+            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 167,
@@ -2666,12 +2666,12 @@ const questionsData = [
         "cleanAnswer": "ITIL.",
         "type": "qcm",
         "options": [
-            "Risk IT.",
             "ITIL.",
             "Val IT.",
+            "Risk IT.",
             "COBIT."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 168,
@@ -2682,12 +2682,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
         "type": "qcm",
         "options": [
+            "Risk IT.",
+            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
             "COBIT.",
-            "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
-            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
-            "Risk IT."
+            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 169,
@@ -2698,12 +2698,12 @@ const questionsData = [
         "cleanAnswer": "Risk IT.",
         "type": "qcm",
         "options": [
-            "Risk IT.",
             "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
             "COBIT.",
+            "Risk IT.",
             "ITIL."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 170,
@@ -2714,12 +2714,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
         "type": "qcm",
         "options": [
-            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
             "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
             "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
+            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
             "Val IT."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 171,
@@ -2730,12 +2730,12 @@ const questionsData = [
         "cleanAnswer": "Val IT.",
         "type": "qcm",
         "options": [
-            "COBIT.",
-            "Risk IT.",
+            "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
             "Val IT.",
-            "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement."
+            "COBIT.",
+            "ITIL."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 172,
@@ -2746,12 +2746,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
         "type": "qcm",
         "options": [
-            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
-            "Elles encouragent l’amélioration continue des processus et des systèmes.",
-            "La certification CISA.",
-            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes."
+            "Elles permettent d’identifier, d’évaluer et de gérer les risques liés aux technologies de l’information.",
+            "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
+            "Elles permettent d’aligner les projets informatiques sur les objectifs stratégiques de l’organisation et de maximiser les retours sur investissement.",
+            "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 173,
@@ -2763,11 +2763,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elles permettent la certification des systèmes et des processus et offrent une assurance supplémentaire aux parties prenantes.",
-            "La certification CISA.",
             "Elles permettent de vérifier que les systèmes d’information respectent les exigences légales, réglementaires et internes.",
+            "La certification CISA.",
             "Elles fournissent des cadres de référence et des bonnes pratiques permettant d’évaluer et d’améliorer les systèmes d’information."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 174,
@@ -2778,12 +2778,12 @@ const questionsData = [
         "cleanAnswer": "La planification, l’exécution et le rapport.",
         "type": "qcm",
         "options": [
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
             "La planification, l’exécution et le rapport.",
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
-            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
             "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 175,
@@ -2795,8 +2795,8 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
-            "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
+            "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
             "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations."
         ],
         "correctIndex": 3
@@ -2810,12 +2810,12 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à identifier les systèmes, processus et zones qui seront audités.",
         "type": "qcm",
         "options": [
-            "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations.",
             "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités.",
             "Elle consiste à identifier les systèmes, processus et zones qui seront audités.",
+            "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations.",
             "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l’audit."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 177,
@@ -2826,12 +2826,12 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l’audit.",
         "type": "qcm",
         "options": [
-            "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l’audit.",
+            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
             "Elle consiste à identifier les systèmes, processus et zones qui seront audités.",
             "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l'audit.",
-            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit."
+            "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l’audit."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 178,
@@ -2842,12 +2842,12 @@ const questionsData = [
         "cleanAnswer": "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
         "type": "qcm",
         "options": [
-            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
             "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations.",
             "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
+            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
             "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 179,
@@ -2859,8 +2859,8 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
+            "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations.",
             "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l’audit.",
-            "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
             "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit."
         ],
         "correctIndex": 0
@@ -2874,12 +2874,12 @@ const questionsData = [
         "cleanAnswer": "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
         "type": "qcm",
         "options": [
-            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
             "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
             "Pour observer les processus en action et vérifier leur fonctionnement réel.",
+            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
             "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 181,
@@ -2890,9 +2890,9 @@ const questionsData = [
         "cleanAnswer": "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques.",
         "type": "qcm",
         "options": [
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
             "Pour observer les processus en action et vérifier leur fonctionnement réel.",
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
+            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
             "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques."
         ],
         "correctIndex": 3
@@ -2907,11 +2907,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
-            "Pour observer les processus en action et vérifier leur fonctionnement réel.",
             "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques.",
-            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel."
+            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel.",
+            "Pour observer les processus en action et vérifier leur fonctionnement réel."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 183,
@@ -2922,12 +2922,12 @@ const questionsData = [
         "cleanAnswer": "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
         "type": "qcm",
         "options": [
-            "C’est une évaluation de l’efficacité, de l’efficience et de l’économie des opérations et processus d’une organisation.",
-            "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
             "C’est une évaluation de l’efficacité des mesures de sécurité mises en place pour protéger les systèmes d’information contre les menaces internes et externes.",
-            "Évaluer l’efficacité des contrôles internes en place."
+            "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats.",
+            "Évaluer l’efficacité des contrôles internes en place.",
+            "C’est un test permettant de vérifier l’efficacité des contrôles internes en place."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 184,
@@ -2939,11 +2939,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "L'analyse des données permet de détecter les anomalies et les risques.",
-            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
             "Pour identifier les anomalies et les risques.",
+            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
             "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 185,
@@ -2954,12 +2954,12 @@ const questionsData = [
         "cleanAnswer": "Pour documenter les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
         "type": "qcm",
         "options": [
-            "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
-            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
             "Pour documenter les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
-            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations."
+            "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques.",
+            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
+            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 186,
@@ -2970,10 +2970,10 @@ const questionsData = [
         "cleanAnswer": "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives.",
         "type": "qcm",
         "options": [
+            "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité.",
             "On documente les constats, évalue leurs impacts, formule des recommandations et assure le suivi des actions correctives.",
-            "Ils sont présentés à la direction et aux parties prenantes concernées.",
             "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives.",
-            "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité."
+            "Ils sont présentés à la direction et aux parties prenantes concernées."
         ],
         "correctIndex": 2
     },
@@ -2987,11 +2987,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité.",
-            "Il contient les constatations, les conclusions et les recommandations.",
             "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives.",
-            "Il définit notamment les objectifs, les ressources nécessaires et le calendrier."
+            "Il définit notamment les objectifs, les ressources nécessaires et le calendrier.",
+            "Il contient les constatations, les conclusions et les recommandations."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 188,
@@ -3002,12 +3002,12 @@ const questionsData = [
         "cleanAnswer": "Ils sont présentés à la direction et aux parties prenantes concernées.",
         "type": "qcm",
         "options": [
-            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
             "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
-            "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives.",
-            "Ils sont présentés à la direction et aux parties prenantes concernées."
+            "Ils sont présentés à la direction et aux parties prenantes concernées.",
+            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
+            "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 189,
@@ -3018,12 +3018,12 @@ const questionsData = [
         "cleanAnswer": "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité.",
         "type": "qcm",
         "options": [
-            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
             "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité.",
             "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
+            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
             "On rédige le rapport, on présente les résultats et on assure le suivi des actions correctives."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 190,
@@ -3034,12 +3034,12 @@ const questionsData = [
         "cleanAnswer": "Les interviews, les observations et les tests de contrôle.",
         "type": "qcm",
         "options": [
-            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
-            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
+            "Elle consiste notamment à réaliser des interviews et des observations, effectuer des tests de contrôle et analyser les données.",
             "Les interviews, les observations et les tests de contrôle.",
-            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place."
+            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
+            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 191,
@@ -3050,12 +3050,12 @@ const questionsData = [
         "cleanAnswer": "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
         "type": "qcm",
         "options": [
-            "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes.",
+            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
             "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
-            "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques.",
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes."
+            "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes.",
+            "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 192,
@@ -3066,12 +3066,12 @@ const questionsData = [
         "cleanAnswer": "Il faut préparer une liste de questions pertinentes.",
         "type": "qcm",
         "options": [
-            "Il faut préparer une liste de questions pertinentes.",
+            "Elles peuvent être subjectives et dépendre de la franchise des répondants. Elles nécessitent également du temps et des compétences en communication.",
             "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
-            "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes.",
+            "Il faut préparer une liste de questions pertinentes.",
             "Il faut documenter les réponses et les observations."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 193,
@@ -3082,12 +3082,12 @@ const questionsData = [
         "cleanAnswer": "Avec les responsables des processus, les utilisateurs clés et les membres de l’équipe informatique.",
         "type": "qcm",
         "options": [
-            "Elles encouragent l’amélioration continue des processus et des systèmes.",
+            "Avec les responsables des processus, les utilisateurs clés et les membres de l’équipe informatique.",
             "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
             "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
-            "Avec les responsables des processus, les utilisateurs clés et les membres de l’équipe informatique."
+            "Ils peuvent accéder aux données, les modifier ou les supprimer."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 194,
@@ -3098,10 +3098,10 @@ const questionsData = [
         "cleanAnswer": "Il faut documenter les réponses et les observations.",
         "type": "qcm",
         "options": [
-            "Il faut préparer une liste de questions pertinentes.",
+            "Il faut documenter les résultats et les écarts identifiés.",
             "Il faut documenter les réponses et les observations.",
-            "Il faut évaluer leur impact potentiel.",
-            "Il faut documenter les résultats et les écarts identifiés."
+            "Il faut préparer une liste de questions pertinentes.",
+            "Il faut évaluer leur impact potentiel."
         ],
         "correctIndex": 1
     },
@@ -3114,12 +3114,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes.",
         "type": "qcm",
         "options": [
-            "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes.",
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
             "Pour rencontrer les parties prenantes et recueillir des informations sur les processus, contrôles et risques.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
+            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
+            "Elles permettent d’obtenir des informations qualitatives et contextuelles et d’aider à comprendre les perceptions et préoccupations des parties prenantes."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 196,
@@ -3130,7 +3130,7 @@ const questionsData = [
         "cleanAnswer": "Elles peuvent être subjectives et dépendre de la franchise des répondants. Elles nécessitent également du temps et des compétences en communication.",
         "type": "qcm",
         "options": [
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
+            "Il faut documenter les réponses et les observations.",
             "Elle peut être intrusive, perturber les opérations normales et nécessite une présence physique ainsi que du temps.",
             "Ils peuvent nécessiter des compétences techniques spécifiques et leurs résultats peuvent être influencés par la qualité de l’échantillonnage.",
             "Elles peuvent être subjectives et dépendre de la franchise des répondants. Elles nécessitent également du temps et des compétences en communication."
@@ -3146,10 +3146,10 @@ const questionsData = [
         "cleanAnswer": "Vérifier directement les processus et les contrôles en action.",
         "type": "qcm",
         "options": [
-            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel.",
+            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
             "Pour observer les processus en action et vérifier leur fonctionnement réel.",
             "Vérifier directement les processus et les contrôles en action.",
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes."
+            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel."
         ],
         "correctIndex": 2
     },
@@ -3163,9 +3163,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elle peut être intrusive, perturber les opérations normales et nécessite une présence physique ainsi que du temps.",
-            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles.",
+            "Pour observer les processus en action et vérifier leur fonctionnement réel.",
             "On observe les opérations quotidiennes et les procédures en temps réel.",
-            "Pour observer les processus en action et vérifier leur fonctionnement réel."
+            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles."
         ],
         "correctIndex": 2
     },
@@ -3179,11 +3179,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Des check-lists peuvent être utilisées pour s’assurer que tous les aspects sont couverts.",
-            "Elle fournit une vue objective et directe des opérations et permet de détecter des pratiques non documentées ou des écarts.",
             "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles.",
+            "Elle fournit une vue objective et directe des opérations et permet de détecter des pratiques non documentées ou des écarts.",
             "On observe les opérations quotidiennes et les procédures en temps réel."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 200,
@@ -3194,12 +3194,12 @@ const questionsData = [
         "cleanAnswer": "Des check-lists peuvent être utilisées pour s’assurer que tous les aspects sont couverts.",
         "type": "qcm",
         "options": [
-            "Des check-lists peuvent être utilisées pour s’assurer que tous les aspects sont couverts.",
-            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles.",
             "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
-            "On observe les opérations quotidiennes et les procédures en temps réel."
+            "Les tests de pénétration, les analyses de vulnérabilités, la revue des politiques de sécurité et des configurations, ainsi que les simulations d’attaques et les évaluations des réponses.",
+            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles.",
+            "Des check-lists peuvent être utilisées pour s’assurer que tous les aspects sont couverts."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 201,
@@ -3210,12 +3210,12 @@ const questionsData = [
         "cleanAnswer": "Elle fournit une vue objective et directe des opérations et permet de détecter des pratiques non documentées ou des écarts.",
         "type": "qcm",
         "options": [
+            "Vérifier directement les processus et les contrôles en action.",
             "Elle peut être intrusive, perturber les opérations normales et nécessite une présence physique ainsi que du temps.",
             "Elle fournit une vue objective et directe des opérations et permet de détecter des pratiques non documentées ou des écarts.",
-            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles.",
-            "Vérifier directement les processus et les contrôles en action."
+            "Il doit notamment rechercher les écarts entre les procédures documentées et les pratiques réelles."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 202,
@@ -3227,11 +3227,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elle fournit une vue objective et directe des opérations et permet de détecter des pratiques non documentées ou des écarts.",
-            "Vérifier directement les processus et les contrôles en action.",
             "Elle peut être intrusive, perturber les opérations normales et nécessite une présence physique ainsi que du temps.",
-            "On observe les opérations quotidiennes et les procédures en temps réel."
+            "On observe les opérations quotidiennes et les procédures en temps réel.",
+            "Vérifier directement les processus et les contrôles en action."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 203,
@@ -3242,12 +3242,12 @@ const questionsData = [
         "cleanAnswer": "Évaluer l’efficacité des contrôles internes en place.",
         "type": "qcm",
         "options": [
+            "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
             "Évaluer l’efficacité des contrôles internes en place.",
             "Ils fournissent des preuves tangibles de l’efficacité des contrôles et permettent de quantifier les écarts et les risques.",
-            "C’est un test permettant de vérifier l’efficacité des contrôles internes en place.",
             "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 204,
@@ -3259,11 +3259,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Ils peuvent nécessiter des compétences techniques spécifiques et leurs résultats peuvent être influencés par la qualité de l’échantillonnage.",
-            "Pour tester un ensemble représentatif de transactions ou de processus sans nécessairement examiner toutes les opérations.",
             "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats.",
+            "Pour tester un ensemble représentatif de transactions ou de processus sans nécessairement examiner toutes les opérations.",
             "Il faut documenter les résultats et les écarts identifiés."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 205,
@@ -3275,8 +3275,8 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Pour tester un ensemble représentatif de transactions ou de processus sans nécessairement examiner toutes les opérations.",
-            "Ils fournissent des preuves tangibles de l’efficacité des contrôles et permettent de quantifier les écarts et les risques.",
-            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
+            "Évaluer l’efficacité des contrôles internes en place.",
+            "Évaluer l’efficacité des processus de gestion des risques, de contrôle et de gouvernance, améliorer les opérations et assurer la conformité aux politiques internes et aux réglementations.",
             "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats."
         ],
         "correctIndex": 0
@@ -3290,12 +3290,12 @@ const questionsData = [
         "cleanAnswer": "Il faut documenter les résultats et les écarts identifiés.",
         "type": "qcm",
         "options": [
-            "Il faut documenter les résultats et les écarts identifiés.",
-            "Ils peuvent nécessiter des compétences techniques spécifiques et leurs résultats peuvent être influencés par la qualité de l’échantillonnage.",
             "Ils fournissent des preuves tangibles de l’efficacité des contrôles et permettent de quantifier les écarts et les risques.",
+            "Il faut documenter les résultats et les écarts identifiés.",
+            "Il faut évaluer leur impact potentiel.",
             "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 207,
@@ -3306,12 +3306,12 @@ const questionsData = [
         "cleanAnswer": "Ils fournissent des preuves tangibles de l’efficacité des contrôles et permettent de quantifier les écarts et les risques.",
         "type": "qcm",
         "options": [
-            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
-            "Évaluer l’efficacité des contrôles internes en place.",
             "Ils fournissent des preuves tangibles de l’efficacité des contrôles et permettent de quantifier les écarts et les risques.",
-            "Il faut documenter les résultats et les écarts identifiés."
+            "Il faut documenter les résultats et les écarts identifiés.",
+            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
+            "Évaluer l’efficacité des contrôles internes en place."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 208,
@@ -3322,10 +3322,10 @@ const questionsData = [
         "cleanAnswer": "Ils peuvent nécessiter des compétences techniques spécifiques et leurs résultats peuvent être influencés par la qualité de l’échantillonnage.",
         "type": "qcm",
         "options": [
-            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
+            "Il faut documenter les résultats et les écarts identifiés.",
             "Ils peuvent nécessiter des compétences techniques spécifiques et leurs résultats peuvent être influencés par la qualité de l’échantillonnage.",
-            "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats.",
-            "Il faut documenter les résultats et les écarts identifiés."
+            "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
+            "On sélectionne un échantillon de transactions ou de processus, on applique des tests spécifiques pour vérifier la conformité aux contrôles établis et on documente les résultats."
         ],
         "correctIndex": 1
     },
@@ -3338,9 +3338,9 @@ const questionsData = [
         "cleanAnswer": "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place.",
         "type": "qcm",
         "options": [
-            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
-            "Les interviews, les observations et les tests de contrôle.",
             "Évaluer l’efficacité des contrôles internes en place.",
+            "Les interviews, les observations et les tests de contrôle.",
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
             "Les interviews, observations et tests de contrôle sont utilisés de manière complémentaire afin d’obtenir une vue d’ensemble complète et précise des systèmes d’information et des contrôles en place."
         ],
         "correctIndex": 3
@@ -3361,11 +3361,11 @@ const questionsData = [
             "La préparation des outils."
         ],
         "shuffledItems": [
-            "La définition du périmètre ;",
-            "La préparation des outils.",
-            "L'évaluation des risques ;",
             "La collecte d'informations ;",
-            "L'élaboration du plan d'audit ;"
+            "L'évaluation des risques ;",
+            "La définition du périmètre ;",
+            "L'élaboration du plan d'audit ;",
+            "La préparation des outils."
         ]
     },
     {
@@ -3378,9 +3378,9 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
-            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
+            "Elle consiste à identifier les systèmes, processus et zones qui seront audités.",
             "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités.",
-            "Elle consiste à identifier les systèmes, processus et zones qui seront audités."
+            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux."
         ],
         "correctIndex": 2
     },
@@ -3394,11 +3394,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
+            "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités.",
             "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l'audit.",
-            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
-            "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités."
+            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 213,
@@ -3409,10 +3409,10 @@ const questionsData = [
         "cleanAnswer": "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
         "type": "qcm",
         "options": [
-            "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités.",
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
+            "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l'audit.",
             "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
-            "Elle consiste à analyser les risques potentiels et à déterminer les priorités de l'audit."
+            "Elle consiste à identifier les systèmes, les processus et les zones qui doivent être audités."
         ],
         "correctIndex": 2
     },
@@ -3425,12 +3425,12 @@ const questionsData = [
         "cleanAnswer": "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit.",
         "type": "qcm",
         "options": [
-            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
+            "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit.",
             "Il faut configurer les outils et les logiciels nécessaires à la réalisation des travaux d'audit.",
-            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
-            "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit."
+            "Pour rassembler les documents, politiques et procédures pertinents nécessaires à la réalisation de l’audit.",
+            "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 215,
@@ -3441,12 +3441,12 @@ const questionsData = [
         "cleanAnswer": "Il faut configurer les outils et les logiciels nécessaires à la réalisation des travaux d'audit.",
         "type": "qcm",
         "options": [
-            "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit.",
             "Il faut configurer les outils et les logiciels nécessaires à la réalisation des travaux d'audit.",
+            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux.",
             "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
-            "Elle consiste à définir les objectifs de l'audit, les ressources nécessaires et le calendrier des travaux."
+            "Il faut rassembler les documents, les politiques et les procédures nécessaires afin de mieux connaître l'environnement informatique et préparer les travaux d'audit."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 216,
@@ -3457,12 +3457,12 @@ const questionsData = [
         "cleanAnswer": "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques.",
         "type": "qcm",
         "options": [
-            "Elle permet notamment d'identifier les flux d'information, les points sensibles et les applications critiques.",
+            "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique.",
             "Le réseau et les applications peuvent notamment être cartographiés afin de visualiser l'architecture informatique et les différents flux.",
-            "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques.",
-            "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique."
+            "Elle permet notamment d'identifier les flux d'information, les points sensibles et les applications critiques.",
+            "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 217,
@@ -3489,10 +3489,10 @@ const questionsData = [
         "cleanAnswer": "Elle aide l'auditeur à cibler les zones à risque et à mieux planifier les investigations.",
         "type": "qcm",
         "options": [
-            "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques.",
             "Elle permet notamment d'identifier les flux d'information, les points sensibles et les applications critiques.",
+            "Le réseau et les applications peuvent notamment être cartographiés afin de visualiser l'architecture informatique et les différents flux.",
             "Elle aide l'auditeur à cibler les zones à risque et à mieux planifier les investigations.",
-            "Le réseau et les applications peuvent notamment être cartographiés afin de visualiser l'architecture informatique et les différents flux."
+            "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques."
         ],
         "correctIndex": 2
     },
@@ -3505,12 +3505,12 @@ const questionsData = [
         "cleanAnswer": "Le réseau et les applications peuvent notamment être cartographiés afin de visualiser l'architecture informatique et les différents flux.",
         "type": "qcm",
         "options": [
-            "Elle permet notamment d'identifier les flux d'information, les points sensibles et les applications critiques.",
             "Le réseau et les applications peuvent notamment être cartographiés afin de visualiser l'architecture informatique et les différents flux.",
+            "Elle permet notamment d'identifier les flux d'information, les points sensibles et les applications critiques.",
             "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique.",
             "Elle permet de visualiser l'architecture informatique, d'identifier les flux d'information, les points sensibles et les applications critiques."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 220,
@@ -3521,18 +3521,18 @@ const questionsData = [
         "cleanAnswer": "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
         "type": "checkbox",
         "allItems": [
-            "le rapport d'audit détaillé.",
             "les cartographies applicatives ;",
-            "les systèmes et applications utilisés ;",
-            "les rôles et responsabilités ;",
-            "leur localisation ;",
-            "les informations sur la structure de l'équipe informatique ;",
-            "les informations sur les prestataires externes et leur rôle.",
             "les organigrammes ;",
             "les versions des systèmes et applications ;",
-            "la fiche de description de l'environnement informatique ;",
+            "les rôles et responsabilités ;",
+            "les informations sur les prestataires externes et leur rôle.",
             "les rapports d'audit antérieurs ;",
-            "le mémo de prise de connaissance ;"
+            "les informations sur la structure de l'équipe informatique ;",
+            "leur localisation ;",
+            "le mémo de prise de connaissance ;",
+            "le rapport d'audit détaillé.",
+            "les systèmes et applications utilisés ;",
+            "la fiche de description de l'environnement informatique ;"
         ],
         "correctItems": [
             "les organigrammes ;",
@@ -3560,12 +3560,12 @@ const questionsData = [
         "cleanAnswer": "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités.",
         "type": "qcm",
         "options": [
-            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
             "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
-            "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités.",
-            "Ils permettent de prendre connaissance des constats et éléments déjà identifiés lors des audits précédents."
+            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
+            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique.",
+            "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 222,
@@ -3576,12 +3576,12 @@ const questionsData = [
         "cleanAnswer": "Ils permettent de prendre connaissance des constats et éléments déjà identifiés lors des audits précédents.",
         "type": "qcm",
         "options": [
-            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
-            "Ils permettent de prendre connaissance des constats et éléments déjà identifiés lors des audits précédents.",
+            "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités.",
             "C'est un livrable qui formalise les éléments recueillis lors de la prise de connaissance de l'environnement informatique.",
-            "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités."
+            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
+            "Ils permettent de prendre connaissance des constats et éléments déjà identifiés lors des audits précédents."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 223,
@@ -3592,12 +3592,12 @@ const questionsData = [
         "cleanAnswer": "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
         "type": "qcm",
         "options": [
+            "Il faut identifier les systèmes et applications utilisés, leurs versions et leur localisation.",
             "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
             "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités.",
-            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
-            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique."
+            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 224,
@@ -3608,12 +3608,12 @@ const questionsData = [
         "cleanAnswer": "Il faut identifier les systèmes et applications utilisés, leurs versions et leur localisation.",
         "type": "qcm",
         "options": [
-            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique.",
+            "Il faut identifier les systèmes et applications utilisés, leurs versions et leur localisation.",
             "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
-            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
-            "Il faut identifier les systèmes et applications utilisés, leurs versions et leur localisation."
+            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique.",
+            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 225,
@@ -3624,12 +3624,12 @@ const questionsData = [
         "cleanAnswer": "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique.",
         "type": "qcm",
         "options": [
-            "Il faut identifier les systèmes et applications utilisés, leurs versions et leur localisation.",
-            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres.",
             "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
-            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique."
+            "Ils permettent de comprendre la structure de l'organisation et de connaître les différentes responsabilités.",
+            "Il faut connaître les prestataires externes ainsi que leur rôle dans l'environnement informatique.",
+            "Il faut connaître sa structure ainsi que les rôles et responsabilités de ses membres."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 226,
@@ -3640,12 +3640,12 @@ const questionsData = [
         "cleanAnswer": "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés.",
         "type": "qcm",
         "options": [
-            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
             "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés.",
-            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit.",
-            "Les systèmes, les applications et les risques identifiés."
+            "Les systèmes, les applications et les risques identifiés.",
+            "Il faut notamment collecter : • les organigrammes ; • les cartographies applicatives ; • les rapports d'audit antérieurs ; • les informations sur la structure de l'équipe informatique ; • les rôles et responsabilités ; • les systèmes et applications utilisés ; • les versions des systèmes et applications ; • leur localisation ; • les informations sur les prestataires externes et leur rôle.",
+            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 227,
@@ -3656,12 +3656,12 @@ const questionsData = [
         "cleanAnswer": "Elle sert de base pour ajuster le plan d'audit.",
         "type": "qcm",
         "options": [
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "Elle sert de base pour ajuster le plan d'audit.",
-            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit.",
             "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé."
+            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 228,
@@ -3673,11 +3673,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elle sert de base pour ajuster le plan d'audit.",
-            "Les systèmes, les applications et les risques identifiés.",
             "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit.",
-            "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés."
+            "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés.",
+            "Les systèmes, les applications et les risques identifiés."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 229,
@@ -3688,12 +3688,12 @@ const questionsData = [
         "cleanAnswer": "Elle consiste notamment à réaliser des interviews et des observations, effectuer des tests de contrôle et analyser les données.",
         "type": "qcm",
         "options": [
-            "L'analyse des données permet de détecter les anomalies et les risques.",
             "Elle consiste notamment à réaliser des interviews et des observations, effectuer des tests de contrôle et analyser les données.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
-            "On réalise des interviews et observations, des tests de contrôle et une analyse des données."
+            "L'analyse des données permet de détecter les anomalies et les risques.",
+            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 230,
@@ -3704,12 +3704,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
         "type": "qcm",
         "options": [
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elle fournit une première évaluation des risques et des contrôles existants.",
             "Ils permettent de vérifier l'efficacité des contrôles internes au moyen de tests ciblés.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants."
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 231,
@@ -3720,12 +3720,12 @@ const questionsData = [
         "cleanAnswer": "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel.",
         "type": "qcm",
         "options": [
-            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel.",
             "Ils permettent de vérifier l'efficacité des contrôles internes au moyen de tests ciblés.",
             "Pour observer les processus en action et vérifier leur fonctionnement réel.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
+            "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 232,
@@ -3736,12 +3736,12 @@ const questionsData = [
         "cleanAnswer": "Ils permettent de vérifier l'efficacité des contrôles internes au moyen de tests ciblés.",
         "type": "qcm",
         "options": [
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elles permettent d'observer les processus en action afin de vérifier leur fonctionnement réel.",
             "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
-            "Ils permettent de vérifier l'efficacité des contrôles internes au moyen de tests ciblés."
+            "Ils permettent de vérifier l'efficacité des contrôles internes au moyen de tests ciblés.",
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 233,
@@ -3752,12 +3752,12 @@ const questionsData = [
         "cleanAnswer": "L'analyse des données permet de détecter les anomalies et les risques.",
         "type": "qcm",
         "options": [
-            "Elle fournit une première évaluation des risques et des contrôles existants.",
-            "L'analyse des données permet de détecter les anomalies et les risques.",
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elle consiste notamment à réaliser des interviews et des observations, effectuer des tests de contrôle et analyser les données.",
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants."
+            "L'analyse des données permet de détecter les anomalies et les risques.",
+            "Elle fournit une première évaluation des risques et des contrôles existants."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 234,
@@ -3768,10 +3768,10 @@ const questionsData = [
         "cleanAnswer": "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
         "type": "qcm",
         "options": [
-            "Elle fournit une première évaluation des risques et des contrôles existants.",
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elle permet notamment d'identifier les faiblesses du dispositif de contrôle interne.",
-            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
+            "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants.",
+            "Elle fournit une première évaluation des risques et des contrôles existants."
         ],
         "correctIndex": 1
     },
@@ -3784,12 +3784,12 @@ const questionsData = [
         "cleanAnswer": "Elle permet notamment d'identifier les faiblesses du dispositif de contrôle interne.",
         "type": "qcm",
         "options": [
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
-            "Elle permet notamment d'identifier les faiblesses du dispositif de contrôle interne.",
             "Elle fournit une première évaluation des risques et des contrôles existants.",
-            "L'analyse des données permet de détecter les anomalies et les risques."
+            "L'analyse des données permet de détecter les anomalies et les risques.",
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
+            "Elle permet notamment d'identifier les faiblesses du dispositif de contrôle interne."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 236,
@@ -3801,11 +3801,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "L'analyse des données permet de détecter les anomalies et les risques.",
-            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elle fournit une première évaluation des risques et des contrôles existants.",
+            "Elle permet de comprendre le dispositif réel de contrôle interne, d'identifier les faiblesses et de fournir une première évaluation des risques et des contrôles existants.",
             "Elles permettent de rencontrer les parties prenantes afin de mieux comprendre les processus et les contrôles existants."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 237,
@@ -3816,14 +3816,14 @@ const questionsData = [
         "cleanAnswer": "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
         "type": "checkbox",
         "allItems": [
+            "La préparation des outils.",
+            "les tests de conformité et de pénétration ;",
             "l'analyse des logs et des accès.",
             "les tests de cheminement ;",
+            "la collecte de documents ;",
             "L'évaluation des risques ;",
             "la planification et la réalisation d'entretiens ;",
-            "La collecte d'informations ;",
-            "la collecte de documents ;",
-            "les tests de conformité et de pénétration ;",
-            "La préparation des outils."
+            "L'élaboration du plan d'audit ;"
         ],
         "correctItems": [
             "la collecte de documents ;",
@@ -3833,9 +3833,9 @@ const questionsData = [
             "l'analyse des logs et des accès."
         ],
         "distractors": [
-            "La collecte d'informations ;",
-            "L'évaluation des risques ;",
-            "La préparation des outils."
+            "L'élaboration du plan d'audit ;",
+            "La préparation des outils.",
+            "L'évaluation des risques ;"
         ]
     },
     {
@@ -3847,8 +3847,8 @@ const questionsData = [
         "cleanAnswer": "Les politiques, les procédures, les logs système et les rapports antérieurs.",
         "type": "qcm",
         "options": [
-            "L'analyse des logs permet notamment de détecter des anomalies.",
             "On cherche notamment à détecter les anomalies et les privilèges excessifs.",
+            "L'analyse des logs permet notamment de détecter des anomalies.",
             "Les politiques, les procédures, les logs système et les rapports antérieurs.",
             "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès."
         ],
@@ -3863,12 +3863,12 @@ const questionsData = [
         "cleanAnswer": "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
         "type": "qcm",
         "options": [
+            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes.",
+            "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système.",
             "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
-            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
-            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
-            "Recueillir des informations détaillées sur les processus, les contrôles et les risques directement auprès des parties prenantes."
+            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 240,
@@ -3879,12 +3879,12 @@ const questionsData = [
         "cleanAnswer": "C'est un test qui consiste à suivre le flux des transactions afin de vérifier l'application des contrôles.",
         "type": "qcm",
         "options": [
-            "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
-            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
+            "C'est un test qui consiste à suivre le flux des transactions afin de vérifier l'application des contrôles.",
+            "Ils permettent de vérifier le respect des politiques et des exigences applicables.",
             "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
-            "C'est un test qui consiste à suivre le flux des transactions afin de vérifier l'application des contrôles."
+            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
     },
     {
         "id": 241,
@@ -3895,12 +3895,12 @@ const questionsData = [
         "cleanAnswer": "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
         "type": "qcm",
         "options": [
+            "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles.",
             "Ils permettent de vérifier le respect des politiques et des exigences applicables.",
-            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
             "C'est un test qui consiste à suivre le flux des transactions afin de vérifier l'application des contrôles.",
-            "Les entretiens permettent de recueillir des informations directement auprès des responsables concernés par les processus et les contrôles."
+            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 242,
@@ -3911,9 +3911,9 @@ const questionsData = [
         "cleanAnswer": "Ils permettent de vérifier le respect des politiques et des exigences applicables.",
         "type": "qcm",
         "options": [
-            "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système.",
-            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
             "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
+            "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
+            "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système.",
             "Ils permettent de vérifier le respect des politiques et des exigences applicables."
         ],
         "correctIndex": 3
@@ -3927,12 +3927,12 @@ const questionsData = [
         "cleanAnswer": "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système.",
         "type": "qcm",
         "options": [
+            "Ils permettent de vérifier le respect des politiques et des exigences applicables.",
             "Ils permettent de vérifier que les contrôles sont effectivement appliqués au cours du traitement des transactions.",
             "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
-            "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système.",
-            "Ils permettent de vérifier le respect des politiques et des exigences applicables."
+            "Ils permettent notamment de simuler des attaques afin d'évaluer la sécurité du système."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 244,
@@ -3943,12 +3943,12 @@ const questionsData = [
         "cleanAnswer": "L'analyse des logs permet notamment de détecter des anomalies.",
         "type": "qcm",
         "options": [
-            "On cherche notamment à détecter les anomalies et les privilèges excessifs.",
-            "L'analyse des logs permet notamment de détecter des anomalies.",
             "Les politiques, les procédures, les logs système et les rapports antérieurs.",
-            "L'analyse des accès permet notamment de détecter les privilèges excessifs et les anomalies d'accès."
+            "L'analyse des accès permet notamment de détecter les privilèges excessifs et les anomalies d'accès.",
+            "On cherche notamment à détecter les anomalies et les privilèges excessifs.",
+            "L'analyse des logs permet notamment de détecter des anomalies."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 245,
@@ -3959,10 +3959,10 @@ const questionsData = [
         "cleanAnswer": "L'analyse des accès permet notamment de détecter les privilèges excessifs et les anomalies d'accès.",
         "type": "qcm",
         "options": [
+            "On cherche notamment à détecter les anomalies et les privilèges excessifs.",
             "L'analyse des logs permet notamment de détecter des anomalies.",
-            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
             "L'analyse des accès permet notamment de détecter les privilèges excessifs et les anomalies d'accès.",
-            "On cherche notamment à détecter les anomalies et les privilèges excessifs."
+            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès."
         ],
         "correctIndex": 2
     },
@@ -3991,8 +3991,8 @@ const questionsData = [
         "cleanAnswer": "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
         "type": "qcm",
         "options": [
-            "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
             "Il faut évaluer leur impact potentiel.",
+            "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
             "Pour documenter les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
             "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués."
         ],
@@ -4007,12 +4007,12 @@ const questionsData = [
         "cleanAnswer": "Il faut évaluer leur impact potentiel.",
         "type": "qcm",
         "options": [
-            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
             "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
             "Il faut évaluer leur impact potentiel.",
-            "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation."
+            "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation.",
+            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 249,
@@ -4023,12 +4023,12 @@ const questionsData = [
         "cleanAnswer": "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
         "type": "qcm",
         "options": [
-            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
+            "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation.",
+            "Il faut évaluer leur impact potentiel.",
             "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
-            "Il faut proposer des mesures correctives et valider leur faisabilité avec les parties prenantes.",
-            "Il faut évaluer leur impact potentiel."
+            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 250,
@@ -4039,12 +4039,12 @@ const questionsData = [
         "cleanAnswer": "Il faut proposer des mesures correctives et valider leur faisabilité avec les parties prenantes.",
         "type": "qcm",
         "options": [
-            "Il faut rédiger les écarts identifiés entre les contrôles prévus et les contrôles réellement appliqués.",
             "Il faut proposer des mesures correctives et valider leur faisabilité avec les parties prenantes.",
+            "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
             "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation.",
             "Il faut évaluer leur impact potentiel."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
     },
     {
         "id": 251,
@@ -4056,11 +4056,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Il faut proposer des mesures correctives et valider leur faisabilité avec les parties prenantes.",
-            "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation.",
             "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
-            "Il faut évaluer leur impact potentiel."
+            "Cette évaluation permet de déterminer l'importance des écarts et leurs conséquences potentielles.",
+            "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 252,
@@ -4072,11 +4072,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Pour s'assurer que les mesures correctives proposées peuvent effectivement être mises en œuvre par l'organisation.",
-            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
             "Elles doivent notamment produire des effets attendus sur la sécurité et l'efficacité des systèmes.",
-            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus."
+            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
+            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
     },
     {
         "id": 253,
@@ -4087,12 +4087,12 @@ const questionsData = [
         "cleanAnswer": "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
         "type": "qcm",
         "options": [
-            "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité.",
-            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
             "Elles doivent notamment produire des effets attendus sur la sécurité et l'efficacité des systèmes.",
-            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes."
+            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
+            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
+            "Il consiste à accompagner l’organisation dans la mise en œuvre des recommandations et à vérifier leur efficacité."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 254,
@@ -4103,12 +4103,12 @@ const questionsData = [
         "cleanAnswer": "Elles doivent notamment produire des effets attendus sur la sécurité et l'efficacité des systèmes.",
         "type": "qcm",
         "options": [
-            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
-            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus.",
             "Pour évaluer leur efficacité et vérifier qu’elles contribuent correctement à la sécurité des systèmes.",
-            "Elles doivent notamment produire des effets attendus sur la sécurité et l'efficacité des systèmes."
+            "Il permet de s'assurer que les recommandations sont effectivement mises en œuvre et qu'elles produisent les effets attendus sur la sécurité et l'efficacité des systèmes.",
+            "Elles doivent notamment produire des effets attendus sur la sécurité et l'efficacité des systèmes.",
+            "Il vérifie que les recommandations ont été mises en œuvre et qu'elles produisent les effets attendus."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 255,
@@ -4124,9 +4124,9 @@ const questionsData = [
             "Le partage des conclusions."
         ],
         "shuffledItems": [
+            "Le partage des conclusions.",
             "La rédaction du rapport final ;",
-            "L'évaluation des risques résiduels ;",
-            "Le partage des conclusions."
+            "L'évaluation des risques résiduels ;"
         ]
     },
     {
@@ -4138,12 +4138,12 @@ const questionsData = [
         "cleanAnswer": "Il doit synthétiser les constats, les recommandations et les actions correctives.",
         "type": "qcm",
         "options": [
-            "Elle consiste à évaluer les risques qui subsistent après les travaux d'audit et à s'assurer que les objectifs de l'audit sont atteints.",
+            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
             "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
-            "Il doit synthétiser les constats, les recommandations et les actions correctives.",
-            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions."
+            "Elle consiste à évaluer les risques qui subsistent après les travaux d'audit et à s'assurer que les objectifs de l'audit sont atteints.",
+            "Il doit synthétiser les constats, les recommandations et les actions correctives."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
     },
     {
         "id": 257,
@@ -4155,11 +4155,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
+            "Il doit synthétiser les constats, les recommandations et les actions correctives.",
             "Elle consiste à évaluer les risques qui subsistent après les travaux d'audit et à s'assurer que les objectifs de l'audit sont atteints.",
-            "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
             "Pour s'assurer que les objectifs de l'audit sont atteints et apprécier les risques qui demeurent."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
     },
     {
         "id": 258,
@@ -4170,12 +4170,12 @@ const questionsData = [
         "cleanAnswer": "Pour s'assurer que les objectifs de l'audit sont atteints et apprécier les risques qui demeurent.",
         "type": "qcm",
         "options": [
-            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
             "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
             "Pour s'assurer que les objectifs de l'audit sont atteints et apprécier les risques qui demeurent.",
+            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
             "Elle consiste à évaluer les risques qui subsistent après les travaux d'audit et à s'assurer que les objectifs de l'audit sont atteints."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 259,
@@ -4186,10 +4186,10 @@ const questionsData = [
         "cleanAnswer": "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
         "type": "qcm",
         "options": [
-            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
-            "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
             "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
-            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions."
+            "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
+            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
+            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes."
         ],
         "correctIndex": 1
     },
@@ -4202,12 +4202,12 @@ const questionsData = [
         "cleanAnswer": "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
         "type": "qcm",
         "options": [
-            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
-            "Elles doivent être présentées à la direction et aux parties prenantes concernées.",
             "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
-            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions."
+            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
+            "Cela permet de présenter les résultats de la mission à la direction et aux parties prenantes concernées.",
+            "Elles doivent être présentées à la direction et aux parties prenantes concernées."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 261,
@@ -4218,13 +4218,13 @@ const questionsData = [
         "cleanAnswer": "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
         "type": "checkbox",
         "allItems": [
-            "la cartographie réseau et applicative ;",
-            "le rapport d'audit détaillé.",
-            "les informations sur la structure de l'équipe informatique ;",
-            "les informations sur les prestataires externes et leur rôle.",
-            "les rapports d'audit antérieurs ;",
             "le mémo de prise de connaissance ;",
-            "la fiche de description de l'environnement informatique ;"
+            "leur localisation ;",
+            "les informations sur les prestataires externes et leur rôle.",
+            "la cartographie réseau et applicative ;",
+            "La rédaction du rapport final ;",
+            "la fiche de description de l'environnement informatique ;",
+            "le rapport d'audit détaillé."
         ],
         "correctItems": [
             "la cartographie réseau et applicative ;",
@@ -4233,9 +4233,9 @@ const questionsData = [
             "le rapport d'audit détaillé."
         ],
         "distractors": [
-            "les informations sur la structure de l'équipe informatique ;",
-            "les rapports d'audit antérieurs ;",
-            "les informations sur les prestataires externes et leur rôle."
+            "les informations sur les prestataires externes et leur rôle.",
+            "leur localisation ;",
+            "La rédaction du rapport final ;"
         ]
     },
     {
@@ -4247,12 +4247,12 @@ const questionsData = [
         "cleanAnswer": "Il contient notamment les constats, les recommandations et le plan d'action.",
         "type": "qcm",
         "options": [
-            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit.",
             "Il contient les constats, les recommandations et le plan d'action.",
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
-            "Il contient notamment les constats, les recommandations et le plan d'action."
+            "Il contient notamment les constats, les recommandations et le plan d'action.",
+            "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 263,
@@ -4263,8 +4263,8 @@ const questionsData = [
         "cleanAnswer": "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique.",
         "type": "qcm",
         "options": [
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "C'est un livrable qui formalise les éléments recueillis lors de la prise de connaissance de l'environnement informatique.",
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
             "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique."
         ],
@@ -4280,11 +4280,11 @@ const questionsData = [
         "type": "qcm",
         "options": [
             "Les systèmes, les applications et les risques identifiés.",
-            "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés.",
+            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit.",
             "Elle sert de base pour ajuster le plan d'audit.",
-            "Elle synthétise les informations collectées sur les systèmes, applications et risques identifiés et sert de base pour ajuster le plan d'audit."
+            "Elle synthétise les informations collectées sur les systèmes, les applications et les risques identifiés."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
     },
     {
         "id": 265,
@@ -4295,12 +4295,12 @@ const questionsData = [
         "cleanAnswer": "C'est un livrable qui formalise les éléments recueillis lors de la prise de connaissance de l'environnement informatique.",
         "type": "qcm",
         "options": [
-            "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
             "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique.",
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
-            "C'est un livrable qui formalise les éléments recueillis lors de la prise de connaissance de l'environnement informatique."
+            "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
+            "C'est un livrable qui formalise les éléments recueillis lors de la prise de connaissance de l'environnement informatique.",
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 266,
@@ -4311,12 +4311,12 @@ const questionsData = [
         "cleanAnswer": "Il contient les constats, les recommandations et le plan d'action.",
         "type": "qcm",
         "options": [
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
             "Il contient notamment les constats, les recommandations et le plan d'action.",
-            "Il contient les constats, les recommandations et le plan d'action."
+            "Il contient les constats, les recommandations et le plan d'action.",
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
     },
     {
         "id": 267,
@@ -4327,12 +4327,12 @@ const questionsData = [
         "cleanAnswer": "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
         "type": "qcm",
         "options": [
-            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
+            "La première étape est la préparation et la planification de la mission.",
             "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
             "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
-            "La première étape est la préparation et la planification de la mission."
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 268,
@@ -4343,12 +4343,12 @@ const questionsData = [
         "cleanAnswer": "La première étape est la préparation et la planification de la mission.",
         "type": "qcm",
         "options": [
-            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
-            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
             "La première étape est la préparation et la planification de la mission.",
-            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport."
+            "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
+            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 269,
@@ -4359,12 +4359,12 @@ const questionsData = [
         "cleanAnswer": "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
         "type": "qcm",
         "options": [
-            "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
-            "La première étape est la préparation et la planification de la mission.",
             "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
+            "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
             "On définit le périmètre, on évalue les risques, on élabore le plan d’audit et on collecte les informations."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
     },
     {
         "id": 270,
@@ -4377,7 +4377,7 @@ const questionsData = [
         "options": [
             "On collecte les documents, réalise les entretiens, effectue les tests de cheminement, les tests de conformité et de pénétration, puis analyse les logs et les accès.",
             "Elle consiste notamment à réaliser des interviews et des observations, effectuer des tests de contrôle et analyser les données.",
-            "On réalise notamment les interviews et observations, les tests de contrôle, l’analyse des données et la documentation des constatations.",
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
             "On réalise des interviews et observations, des tests de contrôle et une analyse des données."
         ],
         "correctIndex": 3
@@ -4391,12 +4391,12 @@ const questionsData = [
         "cleanAnswer": "On collecte les documents, réalise les entretiens, effectue les tests de cheminement, les tests de conformité et de pénétration, puis analyse les logs et les accès.",
         "type": "qcm",
         "options": [
-            "On collecte les documents, réalise les entretiens, effectue les tests de cheminement, les tests de conformité et de pénétration, puis analyse les logs et les accès.",
-            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
             "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
-            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès."
+            "On réalise des interviews et observations, des tests de contrôle et une analyse des données.",
+            "Elles comprennent : • la collecte de documents ; • la planification et la réalisation d'entretiens ; • les tests de cheminement ; • les tests de conformité et de pénétration ; • l'analyse des logs et des accès.",
+            "On collecte les documents, réalise les entretiens, effectue les tests de cheminement, les tests de conformité et de pénétration, puis analyse les logs et les accès."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
     },
     {
         "id": 272,
@@ -4407,12 +4407,12 @@ const questionsData = [
         "cleanAnswer": "On documente les constats, évalue leurs impacts, formule des recommandations et assure le suivi des actions correctives.",
         "type": "qcm",
         "options": [
-            "On documente les constats, évalue leurs impacts, formule des recommandations et assure le suivi des actions correctives.",
+            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
             "On définit le périmètre, évalue les risques, élabore le plan d'audit, collecte les informations et prépare les outils.",
-            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
-            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes."
+            "On documente les constats, évalue leurs impacts, formule des recommandations et assure le suivi des actions correctives.",
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
     },
     {
         "id": 273,
@@ -4423,12 +4423,12 @@ const questionsData = [
         "cleanAnswer": "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
         "type": "qcm",
         "options": [
-            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
             "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
-            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
-            "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé."
+            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
+            "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
+            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
     },
     {
         "id": 274,
@@ -4439,12 +4439,12 @@ const questionsData = [
         "cleanAnswer": "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
         "type": "qcm",
         "options": [
-            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "Elle permet de représenter l'architecture réseau et applicative ainsi que les éléments importants de l'environnement informatique.",
             "La cartographie réseau et applicative, la fiche de description de l'environnement informatique, le mémo de prise de connaissance et le rapport d'audit détaillé.",
+            "Les principaux livrables sont : • la cartographie réseau et applicative ; • la fiche de description de l'environnement informatique ; • le mémo de prise de connaissance ; • le rapport d'audit détaillé.",
             "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
     },
     {
         "id": 275,
@@ -4455,12 +4455,761 @@ const questionsData = [
         "cleanAnswer": "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
         "type": "qcm",
         "options": [
-            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
+            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes.",
             "La première étape est la préparation et la planification de la mission.",
-            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes.",
-            "Elle se termine par la rédaction du rapport final, l'évaluation des risques résiduels et la présentation des conclusions à la direction et aux parties prenantes."
+            "La mission comprend principalement la préparation et la planification, l'évaluation de l'environnement du contrôle interne, les investigations, puis la conclusion des travaux et la restitution du rapport.",
+            "L'objectif est d'identifier les risques et les faiblesses du système, d'évaluer les contrôles existants, de formuler des recommandations et de contribuer à améliorer la sécurité et l'efficacité des systèmes."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 276,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Qu'est-ce qu'un risque de manière générale ?",
+        "answer": "Un risque est la possibilité qu'un événement ou une action ait un impact négatif sur la réalisation des objectifs. C'est une situation ou un événement incertain susceptible de causer des dommages ou des pertes.",
+        "cleanAnswer": "Un risque est la possibilité qu'un événement ou une action ait un impact négatif sur la réalisation des objectifs. C'est une situation ou un événement incertain susceptible de causer des dommages ou des pertes.",
+        "type": "qcm",
+        "options": [
+            "Les trois composants sont : • La probabilité (la chance ou fréquence que l'événement se produise) ; • L'impact (la gravité des conséquences si l'événement survient) ; • La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+            "Un risque est la possibilité qu'un événement ou une action ait un impact négatif sur la réalisation des objectifs. C'est une situation ou un événement incertain susceptible de causer des dommages ou des pertes.",
+            "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place.",
+            "Un risque est considéré comme majeur lorsque son évaluation démontre qu'il peut porter atteinte aux objectifs stratégiques, affecter de manière critique la pérennité de l'organisation ou compromettre ses opérations essentielles."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 277,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Quels sont les 5 principaux types de risques pour une organisation ?",
+        "answer": "Les cinq principaux types de risques sont :<ol><li>Les risques financiers (perte d'argent ou d'actifs financiers) ;</li><li>Les risques opérationnels (dysfonctionnements dans les processus internes) ;</li><li>Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ;</li><li>Les risques de conformité (non-respect des lois, règlements ou normes) ;</li><li>Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).</li></ol>",
+        "cleanAnswer": "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).",
+        "type": "order",
+        "correctOrder": [
+            "Les risques financiers (perte d'argent ou d'actifs financiers) ;",
+            "Les risques opérationnels (dysfonctionnements dans les processus internes) ;",
+            "Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ;",
+            "Les risques de conformité (non-respect des lois, règlements ou normes) ;",
+            "Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation)."
+        ],
+        "shuffledItems": [
+            "Les risques financiers (perte d'argent ou d'actifs financiers) ;",
+            "Les risques opérationnels (dysfonctionnements dans les processus internes) ;",
+            "Les risques de conformité (non-respect des lois, règlements ou normes) ;",
+            "Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).",
+            "Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ;"
+        ]
+    },
+    {
+        "id": 278,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste un risque financier ?",
+        "answer": "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+        "cleanAnswer": "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+        "type": "qcm",
+        "options": [
+            "Il s'agit des menaces qui pèsent directement sur la sécurité, la confidentialité et l'intégrité des informations ou des infrastructures technologiques.",
+            "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation.",
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation)."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 279,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste un risque opérationnel ?",
+        "answer": "Il correspond aux dysfonctionnements survenant dans les processus internes, les personnes ou les systèmes de l'organisation.",
+        "cleanAnswer": "Il correspond aux dysfonctionnements survenant dans les processus internes, les personnes ou les systèmes de l'organisation.",
+        "type": "qcm",
+        "options": [
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation.",
+            "Il correspond aux dysfonctionnements survenant dans les processus internes, les personnes ou les systèmes de l'organisation.",
+            "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation)."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 280,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste un risque de sécurité ?",
+        "answer": "Il s'agit des menaces qui pèsent directement sur la sécurité, la confidentialité et l'intégrité des informations ou des infrastructures technologiques.",
+        "cleanAnswer": "Il s'agit des menaces qui pèsent directement sur la sécurité, la confidentialité et l'intégrité des informations ou des infrastructures technologiques.",
+        "type": "qcm",
+        "options": [
+            "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+            "Il s'agit des menaces qui pèsent directement sur la sécurité, la confidentialité et l'intégrité des informations ou des infrastructures technologiques.",
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).",
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 281,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste un risque de conformité ?",
+        "answer": "C'est le risque de sanctions légales, financières ou réputationnelles lié au non-respect des lois, réglementations ou normes applicables.",
+        "cleanAnswer": "C'est le risque de sanctions légales, financières ou réputationnelles lié au non-respect des lois, réglementations ou normes applicables.",
+        "type": "qcm",
+        "options": [
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).",
+            "C'est le risque de sanctions légales, financières ou réputationnelles lié au non-respect des lois, réglementations ou normes applicables.",
+            "C'est la gravité et l'ampleur des conséquences (financières, opérationnelles ou réputationnelles) si le risque se concrétise.",
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 282,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste un risque stratégique ?",
+        "answer": "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation.",
+        "cleanAnswer": "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation.",
+        "type": "qcm",
+        "options": [
+            "Il s'agit des menaces qui pèsent directement sur la sécurité, la confidentialité et l'intégrité des informations ou des infrastructures technologiques.",
+            "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+            "Les cinq principaux types de risques sont : • Les risques financiers (perte d'argent ou d'actifs financiers) ; • Les risques opérationnels (dysfonctionnements dans les processus internes) ; • Les risques de sécurité (menaces pesant sur les informations ou les infrastructures) ; • Les risques de conformité (non-respect des lois, règlements ou normes) ; • Les risques stratégiques (décisions ou événements affectant la stratégie de l'organisation).",
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 283,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Quels sont les trois composants fondamentaux d'un risque ?",
+        "answer": "Les trois composants sont :<ol><li>La probabilité (la chance ou fréquence que l'événement se produise) ;</li><li>L'impact (la gravité des conséquences si l'événement survient) ;</li><li>La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).</li></ol>",
+        "cleanAnswer": "Les trois composants sont : • La probabilité (la chance ou fréquence que l'événement se produise) ; • L'impact (la gravité des conséquences si l'événement survient) ; • La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+        "type": "order",
+        "correctOrder": [
+            "La probabilité (la chance ou fréquence que l'événement se produise) ;",
+            "L'impact (la gravité des conséquences si l'événement survient) ;",
+            "La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque)."
+        ],
+        "shuffledItems": [
+            "La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+            "L'impact (la gravité des conséquences si l'événement survient) ;",
+            "La probabilité (la chance ou fréquence que l'événement se produise) ;"
+        ]
+    },
+    {
+        "id": 284,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Qu'est-ce que la probabilité dans l'analyse d'un risque ?",
+        "answer": "C'est la chance, la fréquence ou la vraisemblance qu'un événement à risque se réalise.",
+        "cleanAnswer": "C'est la chance, la fréquence ou la vraisemblance qu'un événement à risque se réalise.",
+        "type": "qcm",
+        "options": [
+            "Les trois composants sont : • La probabilité (la chance ou fréquence que l'événement se produise) ; • L'impact (la gravité des conséquences si l'événement survient) ; • La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+            "La gestion des risques comprend : • L'identification des risques (détecter les risques potentiels) ; • L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ; • Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+            "Un risque est la possibilité qu'un événement ou une action ait un impact négatif sur la réalisation des objectifs. C'est une situation ou un événement incertain susceptible de causer des dommages ou des pertes.",
+            "C'est la chance, la fréquence ou la vraisemblance qu'un événement à risque se réalise."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 285,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Qu'est-ce que l'impact dans l'analyse d'un risque ?",
+        "answer": "C'est la gravité et l'ampleur des conséquences (financières, opérationnelles ou réputationnelles) si le risque se concrétise.",
+        "cleanAnswer": "C'est la gravité et l'ampleur des conséquences (financières, opérationnelles ou réputationnelles) si le risque se concrétise.",
+        "type": "qcm",
+        "options": [
+            "Les trois composants sont : • La probabilité (la chance ou fréquence que l'événement se produise) ; • L'impact (la gravité des conséquences si l'événement survient) ; • La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+            "C'est le risque de sanctions légales, financières ou réputationnelles lié au non-respect des lois, réglementations ou normes applicables.",
+            "La gestion des risques comprend : • L'identification des risques (détecter les risques potentiels) ; • L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ; • Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+            "C'est la gravité et l'ampleur des conséquences (financières, opérationnelles ou réputationnelles) si le risque se concrétise."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 286,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Qu'est-ce que la vulnérabilité face à un risque ?",
+        "answer": "C'est le degré de susceptibilité, de faiblesse ou d'exposition de l'organisation à subir les effets néfastes du risque.",
+        "cleanAnswer": "C'est le degré de susceptibilité, de faiblesse ou d'exposition de l'organisation à subir les effets néfastes du risque.",
+        "type": "qcm",
+        "options": [
+            "Il concerne les décisions stratégiques erronées ou les événements externes majeurs qui affectent directement la stratégie et les orientations globales de l'organisation.",
+            "Il s'agit du risque de perte d'argent ou de dépréciation d'actifs financiers pour l'organisation.",
+            "Les trois composants sont : • La probabilité (la chance ou fréquence que l'événement se produise) ; • L'impact (la gravité des conséquences si l'événement survient) ; • La vulnérabilité (la susceptibilité de l'organisation à être affectée par le risque).",
+            "C'est le degré de susceptibilité, de faiblesse ou d'exposition de l'organisation à subir les effets néfastes du risque."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 287,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "Quelles sont les trois étapes fondamentales de la gestion des risques ?",
+        "answer": "La gestion des risques comprend :<ol><li>L'identification des risques (détecter les risques potentiels) ;</li><li>L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ;</li><li>Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).</li></ol>",
+        "cleanAnswer": "La gestion des risques comprend : • L'identification des risques (détecter les risques potentiels) ; • L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ; • Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+        "type": "order",
+        "correctOrder": [
+            "L'identification des risques (détecter les risques potentiels) ;",
+            "L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ;",
+            "Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques)."
+        ],
+        "shuffledItems": [
+            "Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+            "L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ;",
+            "L'identification des risques (détecter les risques potentiels) ;"
+        ]
+    },
+    {
+        "id": 288,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1. Le Risque",
+        "question": "En quoi consiste le traitement des risques ?",
+        "answer": "Il consiste à mettre en place des mesures et des dispositifs de contrôle appropriés afin d'atténuer, éliminer, transférer ou accepter les risques identifiés.",
+        "cleanAnswer": "Il consiste à mettre en place des mesures et des dispositifs de contrôle appropriés afin d'atténuer, éliminer, transférer ou accepter les risques identifiés.",
+        "type": "qcm",
+        "options": [
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+            "Il consiste à mettre en place des mesures et des dispositifs de contrôle appropriés afin d'atténuer, éliminer, transférer ou accepter les risques identifiés.",
+            "La gestion des risques comprend : • L'identification des risques (détecter les risques potentiels) ; • L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ; • Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+            "Parce qu'aucun dispositif de contrôle ne peut éliminer totalement les risques ; le risque zéro n'existe pas et il subsiste toujours un risque résiduel."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 289,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Quand un risque est-il considéré comme majeur en audit informatique ?",
+        "answer": "Un risque est considéré comme majeur lorsque son évaluation démontre qu'il peut porter atteinte aux objectifs stratégiques, affecter de manière critique la pérennité de l'organisation ou compromettre ses opérations essentielles.",
+        "cleanAnswer": "Un risque est considéré comme majeur lorsque son évaluation démontre qu'il peut porter atteinte aux objectifs stratégiques, affecter de manière critique la pérennité de l'organisation ou compromettre ses opérations essentielles.",
+        "type": "qcm",
+        "options": [
+            "Un risque est considéré comme majeur lorsque son évaluation démontre qu'il peut porter atteinte aux objectifs stratégiques, affecter de manière critique la pérennité de l'organisation ou compromettre ses opérations essentielles.",
+            "Parce qu'ils brisent la séparation des tâches (SOD) et permettent à un même utilisateur d'effectuer sans surveillance des actions conflictuelles ou frauduleuses.",
+            "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité.",
+            "Parce qu'elle n'est pas figée : elle est réévaluée, actualisée et affinée de manière continue tout au long des différentes étapes de la mission d'audit."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 290,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Quels sont les deux types majeurs de risques distingués pendant un audit informatique ?",
+        "answer": "Il s'agit :<ol><li>Du risque inhérent, également appelé « risk associated with IT » (RAIT) ;</li><li>Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC).</li></ol>",
+        "cleanAnswer": "Il s'agit : • Du risque inhérent, également appelé « risk associated with IT » (RAIT) ; • Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC).",
+        "type": "order",
+        "correctOrder": [
+            "Du risque inhérent, également appelé « risk associated with IT » (RAIT) ;",
+            "Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC)."
+        ],
+        "shuffledItems": [
+            "Du risque inhérent, également appelé « risk associated with IT » (RAIT) ;",
+            "Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC)."
+        ]
+    },
+    {
+        "id": 291,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Qu'est-ce que le risque inhérent ou RAIT (risk associated with IT) ?",
+        "answer": "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité.",
+        "cleanAnswer": "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité.",
+        "type": "qcm",
+        "options": [
+            "C'est le risque qu'une anomalie significative ne soit ni prévenue ni détectée par le dispositif de contrôle interne en place, et qu'elle ne soit donc pas corrigée à temps. C'est le risque qu'un contrôle soit inefficace.",
+            "Il s'agit : • Du risque inhérent, également appelé « risk associated with IT » (RAIT) ; • Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC).",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 292,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Quels sont les exemples typiques de risques inhérents liés à l'informatique (RAIT) ?",
+        "answer": "Ils comprennent notamment :<ul><li>Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ;</li><li>Des modifications directes apportées aux données financières hors transactions applicatives régulières ;</li><li>Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ;</li><li>Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ;</li><li>L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.</li></ul>",
+        "cleanAnswer": "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+        "type": "checkbox",
+        "allItems": [
+            "L'évaluation de l'efficacité de ces contrôles.",
+            "Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ;",
+            "L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ;",
+            "L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ;",
+            "Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ;",
+            "L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ;",
+            "Des modifications directes apportées aux données financières hors transactions applicatives régulières ;"
+        ],
+        "correctItems": [
+            "Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ;",
+            "Des modifications directes apportées aux données financières hors transactions applicatives régulières ;",
+            "Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ;",
+            "Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ;",
+            "L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre."
+        ],
+        "distractors": [
+            "L'évaluation de l'efficacité de ces contrôles.",
+            "L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ;",
+            "L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ;"
+        ]
+    },
+    {
+        "id": 293,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Pourquoi des privilèges d'accès excessifs constituent-ils un risque inhérent majeur ?",
+        "answer": "Parce qu'ils brisent la séparation des tâches (SOD) et permettent à un même utilisateur d'effectuer sans surveillance des actions conflictuelles ou frauduleuses.",
+        "cleanAnswer": "Parce qu'ils brisent la séparation des tâches (SOD) et permettent à un même utilisateur d'effectuer sans surveillance des actions conflictuelles ou frauduleuses.",
+        "type": "qcm",
+        "options": [
+            "Parce qu'ils brisent la séparation des tâches (SOD) et permettent à un même utilisateur d'effectuer sans surveillance des actions conflictuelles ou frauduleuses.",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "Il s'agit : • Du risque inhérent, également appelé « risk associated with IT » (RAIT) ; • Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC).",
+            "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 294,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Qu'est-ce que le risque lié au contrôle ou RAWC (risk associated with the control) ?",
+        "answer": "C'est le risque qu'une anomalie significative ne soit ni prévenue ni détectée par le dispositif de contrôle interne en place, et qu'elle ne soit donc pas corrigée à temps. C'est le risque qu'un contrôle soit inefficace.",
+        "cleanAnswer": "C'est le risque qu'une anomalie significative ne soit ni prévenue ni détectée par le dispositif de contrôle interne en place, et qu'elle ne soit donc pas corrigée à temps. C'est le risque qu'un contrôle soit inefficace.",
+        "type": "qcm",
+        "options": [
+            "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité.",
+            "C'est le risque qu'une anomalie significative ne soit ni prévenue ni détectée par le dispositif de contrôle interne en place, et qu'elle ne soit donc pas corrigée à temps. C'est le risque qu'un contrôle soit inefficace.",
+            "Il s'agit : • Du risque inhérent, également appelé « risk associated with IT » (RAIT) ; • Du risque lié au contrôle, également appelé « risk associated with the control » (RAWC).",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 295,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.2. Le risque en audit informatique",
+        "question": "Pourquoi l'évaluation des risques est-elle qualifiée de processus itératif en audit ?",
+        "answer": "Parce qu'elle n'est pas figée : elle est réévaluée, actualisée et affinée de manière continue tout au long des différentes étapes de la mission d'audit.",
+        "cleanAnswer": "Parce qu'elle n'est pas figée : elle est réévaluée, actualisée et affinée de manière continue tout au long des différentes étapes de la mission d'audit.",
+        "type": "qcm",
+        "options": [
+            "Elles comprennent : • La rédaction du rapport final ; • L'évaluation des risques résiduels ; • Le partage des conclusions.",
+            "Un risque est considéré comme majeur lorsque son évaluation démontre qu'il peut porter atteinte aux objectifs stratégiques, affecter de manière critique la pérennité de l'organisation ou compromettre ses opérations essentielles.",
+            "Elles comprennent : • La définition du périmètre ; • L'évaluation des risques ; • L'élaboration du plan d'audit ; • La collecte d'informations ; • La préparation des outils.",
+            "Parce qu'elle n'est pas figée : elle est réévaluée, actualisée et affinée de manière continue tout au long des différentes étapes de la mission d'audit."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 296,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Quel est l'objet de l'évaluation des risques inhérents liés à l'IT (RAIT) ?",
+        "answer": "Elle vise à déterminer la nature, le calendrier et l'étendue des tests d'audit à réaliser sur le périmètre audité, indépendamment des contrôles internes déployés par l'organisation.",
+        "cleanAnswer": "Elle vise à déterminer la nature, le calendrier et l'étendue des tests d'audit à réaliser sur le périmètre audité, indépendamment des contrôles internes déployés par l'organisation.",
+        "type": "qcm",
+        "options": [
+            "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles.",
+            "Elle vise à déterminer la nature, le calendrier et l'étendue des tests d'audit à réaliser sur le périmètre audité, indépendamment des contrôles internes déployés par l'organisation.",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 297,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Qui mène l'évaluation des RAIT ?",
+        "answer": "C'est une analyse indépendante conduite principalement par des spécialistes en audit informatique, avec la contribution d'autres parties prenantes métiers et techniques.",
+        "cleanAnswer": "C'est une analyse indépendante conduite principalement par des spécialistes en audit informatique, avec la contribution d'autres parties prenantes métiers et techniques.",
+        "type": "qcm",
+        "options": [
+            "C'est une analyse indépendante conduite principalement par des spécialistes en audit informatique, avec la contribution d'autres parties prenantes métiers et techniques.",
+            "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles.",
+            "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières.",
+            "Elle vise à déterminer la nature, le calendrier et l'étendue des tests d'audit à réaliser sur le périmètre audité, indépendamment des contrôles internes déployés par l'organisation."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 298,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "En combien de parties se décompose le processus d'évaluation des RAIT ?",
+        "answer": "Il se décompose en 3 parties :<ol><li>L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ;</li><li>L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ;</li><li>L'évaluation de l'efficacité de ces contrôles.</li></ol>",
+        "cleanAnswer": "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles.",
+        "type": "order",
+        "correctOrder": [
+            "L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ;",
+            "L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ;",
+            "L'évaluation de l'efficacité de ces contrôles."
+        ],
+        "shuffledItems": [
+            "L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ;",
+            "L'évaluation de l'efficacité de ces contrôles.",
+            "L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ;"
+        ]
+    },
+    {
+        "id": 299,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Sur quelles couches de l'infrastructure les contrôles traitant les RAIT doivent-ils être identifiés ?",
+        "answer": "Ils doivent couvrir l'ensemble des couches des systèmes clés : la couche applicative, les bases de données, le système d'exploitation et le réseau.",
+        "cleanAnswer": "Ils doivent couvrir l'ensemble des couches des systèmes clés : la couche applicative, les bases de données, le système d'exploitation et le réseau.",
+        "type": "qcm",
+        "options": [
+            "Ils doivent couvrir l'ensemble des couches des systèmes clés : la couche applicative, les bases de données, le système d'exploitation et le réseau.",
+            "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières.",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 300,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Qu'est-ce que la séparation des tâches ou SOD (Segregation of Duties) ?",
+        "answer": "C'est un principe de contrôle interne fondamental consistant à répartir les responsabilités et les accès entre plusieurs personnes afin d'éviter qu'une seule personne puisse initier, autoriser, exécuter et contrôler une opération.",
+        "cleanAnswer": "C'est un principe de contrôle interne fondamental consistant à répartir les responsabilités et les accès entre plusieurs personnes afin d'éviter qu'une seule personne puisse initier, autoriser, exécuter et contrôler une opération.",
+        "type": "qcm",
+        "options": [
+            "Le triangle de la fraude repose sur trois facteurs explicatifs : • La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ; • L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ; • La rationalisation ou justification (justification morale de l'acte par le fraudeur).",
+            "C'est un principe de contrôle interne fondamental consistant à répartir les responsabilités et les accès entre plusieurs personnes afin d'éviter qu'une seule personne puisse initier, autoriser, exécuter et contrôler une opération.",
+            "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles.",
+            "Elle vise à déterminer la nature, le calendrier et l'étendue des tests d'audit à réaliser sur le périmètre audité, indépendamment des contrôles internes déployés par l'organisation."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 301,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Pourquoi les déficiences de séparation des tâches (SOD) sont-elles si critiques en audit IT ?",
+        "answer": "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières.",
+        "cleanAnswer": "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières.",
+        "type": "qcm",
+        "options": [
+            "Il se décompose en 3 parties : • L'évaluation des risques découlant de l'informatique (au niveau applicatif et entrepôt de données) ; • L'identification des contrôles permettant de traiter les RAIT sur toute l'infrastructure ; • L'évaluation de l'efficacité de ces contrôles.",
+            "Ils comprennent notamment : • Des privilèges d'accès accordés au-delà des besoins stricts, créant une séparation inappropriée des tâches ; • Des modifications directes apportées aux données financières hors transactions applicatives régulières ; • Des modifications inappropriées apportées aux systèmes d'exploitation, réseaux ou logiciels de sécurité ; • Des modifications non autorisées touchant les programmes hébergeant des contrôles automatisés ou des calculs clés ; • L'impossibilité d'accéder aux données financières ou de les restaurer à temps en cas de sinistre.",
+            "Ils doivent couvrir l'ensemble des couches des systèmes clés : la couche applicative, les bases de données, le système d'exploitation et le réseau.",
+            "Parce que des déficiences avérées en matière de SOD peuvent, à elles seules, remettre en cause l'ensemble de l'approche d'audit et la fiabilité globale des systèmes et des données financières."
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": 302,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.1.5. L'évaluation des RAIT et la séparation des tâches (SOD)",
+        "question": "Quels sont les éléments clés du triangle de la fraude ?",
+        "answer": "Le triangle de la fraude repose sur trois facteurs explicatifs :<ol><li>La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ;</li><li>L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ;</li><li>La rationalisation ou justification (justification morale de l'acte par le fraudeur).</li></ol>",
+        "cleanAnswer": "Le triangle de la fraude repose sur trois facteurs explicatifs : • La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ; • L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ; • La rationalisation ou justification (justification morale de l'acte par le fraudeur).",
+        "type": "order",
+        "correctOrder": [
+            "La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ;",
+            "L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ;",
+            "La rationalisation ou justification (justification morale de l'acte par le fraudeur)."
+        ],
+        "shuffledItems": [
+            "L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ;",
+            "La rationalisation ou justification (justification morale de l'acte par le fraudeur).",
+            "La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ;"
+        ]
+    },
+    {
+        "id": 303,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Donnez des exemples concrets de contrôles mis en œuvre au sein d'une entreprise.",
+        "answer": "Les exemples incluent :<ul><li>La définition et la communication d'objectifs annuels pour chaque département ;</li><li>La formalisation et la mise à jour des procédures et modes opératoires ;</li><li>La revue obligatoire des clauses contractuelles par le service juridique avant signature ;</li><li>La vérification du temps de travail et de repos par les Ressources Humaines ;</li><li>Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ;</li><li>L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI.</li></ul>",
+        "cleanAnswer": "Les exemples incluent : • La définition et la communication d'objectifs annuels pour chaque département ; • La formalisation et la mise à jour des procédures et modes opératoires ; • La revue obligatoire des clauses contractuelles par le service juridique avant signature ; • La vérification du temps de travail et de repos par les Ressources Humaines ; • Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ; • L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI.",
+        "type": "checkbox",
+        "allItems": [
+            "Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ;",
+            "La revue obligatoire des clauses contractuelles par le service juridique avant signature ;",
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;",
+            "L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI.",
+            "La formalisation et la mise à jour des procédures et modes opératoires ;",
+            "L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ;",
+            "Le facteur humain (inattention, fatigue ou erreur de jugement) ;",
+            "La vérification du temps de travail et de repos par les Ressources Humaines ;",
+            "La définition et la communication d'objectifs annuels pour chaque département ;"
+        ],
+        "correctItems": [
+            "La définition et la communication d'objectifs annuels pour chaque département ;",
+            "La formalisation et la mise à jour des procédures et modes opératoires ;",
+            "La revue obligatoire des clauses contractuelles par le service juridique avant signature ;",
+            "La vérification du temps de travail et de repos par les Ressources Humaines ;",
+            "Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ;",
+            "L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI."
+        ],
+        "distractors": [
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;",
+            "L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ;",
+            "Le facteur humain (inattention, fatigue ou erreur de jugement) ;"
+        ]
+    },
+    {
+        "id": 304,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Quel contrôle informatique est indispensable avant d'octroyer un accès à un collaborateur ?",
+        "answer": "L'obtention formelle de l'approbation du supérieur hiérarchique par le département des Systèmes d'Information avant la création ou l'attribution des droits d'accès.",
+        "cleanAnswer": "L'obtention formelle de l'approbation du supérieur hiérarchique par le département des Systèmes d'Information avant la création ou l'attribution des droits d'accès.",
+        "type": "qcm",
+        "options": [
+            "Les exemples incluent : • La définition et la communication d'objectifs annuels pour chaque département ; • La formalisation et la mise à jour des procédures et modes opératoires ; • La revue obligatoire des clauses contractuelles par le service juridique avant signature ; • La vérification du temps de travail et de repos par les Ressources Humaines ; • Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ; • L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI.",
+            "L'obtention formelle de l'approbation du supérieur hiérarchique par le département des Systèmes d'Information avant la création ou l'attribution des droits d'accès.",
+            "Les principaux objectifs sont d’auditer les systèmes d’information, de comprendre le contrôle interne informatique, d’identifier et tester les contrôles généraux et applicatifs, et de s’assurer de l’existence d’une piste d’audit.",
+            "Un contrôle manuel est exécuté directement par un individu sans automatisation (ex : rapprochement visuel), tandis qu'un contrôle automatisé est exécuté par le système informatique lui-même (ex : blocage d'une transaction non conforme)."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 305,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Quel est le lien fondamental entre Contrôles, Objectifs et Risques ?",
+        "answer": "Les objectifs déterminent ce que l'entreprise cherche à accomplir ; les risques représentent les obstacles à l'atteinte de ces objectifs ; et les contrôles sont les mécanismes mis en place pour réduire ces risques à un niveau acceptable.",
+        "cleanAnswer": "Les objectifs déterminent ce que l'entreprise cherche à accomplir ; les risques représentent les obstacles à l'atteinte de ces objectifs ; et les contrôles sont les mécanismes mis en place pour réduire ces risques à un niveau acceptable.",
+        "type": "qcm",
+        "options": [
+            "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+            "Les exemples incluent : • La définition et la communication d'objectifs annuels pour chaque département ; • La formalisation et la mise à jour des procédures et modes opératoires ; • La revue obligatoire des clauses contractuelles par le service juridique avant signature ; • La vérification du temps de travail et de repos par les Ressources Humaines ; • Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ; • L'approbation hiérarchique obligatoire avant l'attribution d'accès informatiques par la DSI.",
+            "Les objectifs déterminent ce que l'entreprise cherche à accomplir ; les risques représentent les obstacles à l'atteinte de ces objectifs ; et les contrôles sont les mécanismes mis en place pour réduire ces risques à un niveau acceptable.",
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise."
         ],
         "correctIndex": 2
+    },
+    {
+        "id": 306,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Quelles sont les principales catégories de contrôles selon leur mode d'action ?",
+        "answer": "On distingue :<ul><li>Les contrôles préventifs (visant à empêcher la survenance d'une anomalie) ;</li><li>Les contrôles détectifs (visant à détecter et alerter sur une anomalie déjà survenue) ;</li><li>Les contrôles correctifs (visant à réparer les conséquences d'une anomalie détectée).</li></ul>",
+        "cleanAnswer": "On distingue : • Les contrôles préventifs (visant à empêcher la survenance d'une anomalie) ; • Les contrôles détectifs (visant à détecter et alerter sur une anomalie déjà survenue) ; • Les contrôles correctifs (visant à réparer les conséquences d'une anomalie détectée).",
+        "type": "checkbox",
+        "allItems": [
+            "Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ;",
+            "Les contrôles détectifs (visant à détecter et alerter sur une anomalie déjà survenue) ;",
+            "Les contrôles préventifs (visant à empêcher la survenance d'une anomalie) ;",
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;",
+            "Les contrôles correctifs (visant à réparer les conséquences d'une anomalie détectée)."
+        ],
+        "correctItems": [
+            "Les contrôles préventifs (visant à empêcher la survenance d'une anomalie) ;",
+            "Les contrôles détectifs (visant à détecter et alerter sur une anomalie déjà survenue) ;",
+            "Les contrôles correctifs (visant à réparer les conséquences d'une anomalie détectée)."
+        ],
+        "distractors": [
+            "Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ;",
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;"
+        ]
+    },
+    {
+        "id": 307,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Quelle est la différence entre un contrôle manuel et un contrôle automatisé ?",
+        "answer": "Un contrôle manuel est exécuté directement par un individu sans automatisation (ex : rapprochement visuel), tandis qu'un contrôle automatisé est exécuté par le système informatique lui-même (ex : blocage d'une transaction non conforme).",
+        "cleanAnswer": "Un contrôle manuel est exécuté directement par un individu sans automatisation (ex : rapprochement visuel), tandis qu'un contrôle automatisé est exécuté par le système informatique lui-même (ex : blocage d'une transaction non conforme).",
+        "type": "qcm",
+        "options": [
+            "Un contrôle manuel est exécuté directement par un individu sans automatisation (ex : rapprochement visuel), tandis qu'un contrôle automatisé est exécuté par le système informatique lui-même (ex : blocage d'une transaction non conforme).",
+            "L'obtention formelle de l'approbation du supérieur hiérarchique par le département des Systèmes d'Information avant la création ou l'attribution des droits d'accès.",
+            "Afin d’assurer la pérennité, l’intégrité et la confidentialité du système d’information.",
+            "C'est le risque qu'une anomalie significative ne soit ni prévenue ni détectée par le dispositif de contrôle interne en place, et qu'elle ne soit donc pas corrigée à temps. C'est le risque qu'un contrôle soit inefficace."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 308,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Quelles sont les principales limites inhérentes au contrôle interne ?",
+        "answer": "Le contrôle interne présente plusieurs limites majeures :<ul><li>Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ;</li><li>Le facteur humain (inattention, fatigue ou erreur de jugement) ;</li><li>L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ;</li><li>La collusion entre plusieurs collaborateurs contournant les contrôles ;</li><li>La fraude délibérée et le contournement des procédures par la direction.</li></ul>",
+        "cleanAnswer": "Le contrôle interne présente plusieurs limites majeures : • Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ; • Le facteur humain (inattention, fatigue ou erreur de jugement) ; • L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ; • La collusion entre plusieurs collaborateurs contournant les contrôles ; • La fraude délibérée et le contournement des procédures par la direction.",
+        "type": "checkbox",
+        "allItems": [
+            "Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ;",
+            "L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ;",
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;",
+            "La fraude délibérée et le contournement des procédures par la direction.",
+            "Le facteur humain (inattention, fatigue ou erreur de jugement) ;",
+            "Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ;",
+            "La définition et la communication d'objectifs annuels pour chaque département ;",
+            "La revue obligatoire des clauses contractuelles par le service juridique avant signature ;"
+        ],
+        "correctItems": [
+            "Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ;",
+            "Le facteur humain (inattention, fatigue ou erreur de jugement) ;",
+            "L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ;",
+            "La collusion entre plusieurs collaborateurs contournant les contrôles ;",
+            "La fraude délibérée et le contournement des procédures par la direction."
+        ],
+        "distractors": [
+            "La revue obligatoire des clauses contractuelles par le service juridique avant signature ;",
+            "La définition et la communication d'objectifs annuels pour chaque département ;",
+            "Le contrôle de l'authenticité des justificatifs lors d'une immatriculation ;"
+        ]
+    },
+    {
+        "id": 309,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Pourquoi dit-on que le contrôle interne ne donne qu'une assurance relative ?",
+        "answer": "Parce qu'aucun dispositif de contrôle ne peut éliminer totalement les risques ; le risque zéro n'existe pas et il subsiste toujours un risque résiduel.",
+        "cleanAnswer": "Parce qu'aucun dispositif de contrôle ne peut éliminer totalement les risques ; le risque zéro n'existe pas et il subsiste toujours un risque résiduel.",
+        "type": "qcm",
+        "options": [
+            "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+            "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants.",
+            "Parce qu'aucun dispositif de contrôle ne peut éliminer totalement les risques ; le risque zéro n'existe pas et il subsiste toujours un risque résiduel.",
+            "Le contrôle interne présente plusieurs limites majeures : • Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ; • Le facteur humain (inattention, fatigue ou erreur de jugement) ; • L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ; • La collusion entre plusieurs collaborateurs contournant les contrôles ; • La fraude délibérée et le contournement des procédures par la direction."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 310,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.2. Le Contrôle Interne",
+        "question": "Qu'est-ce que la collusion dans le contexte du contrôle interne ?",
+        "answer": "C'est l'entente secrète ou la complicité entre deux ou plusieurs personnes pour contourner délibérément les contrôles et la séparation des tâches en vue de commettre ou dissimuler une fraude.",
+        "cleanAnswer": "C'est l'entente secrète ou la complicité entre deux ou plusieurs personnes pour contourner délibérément les contrôles et la séparation des tâches en vue de commettre ou dissimuler une fraude.",
+        "type": "qcm",
+        "options": [
+            "Le contrôle interne présente plusieurs limites majeures : • Il ne procure qu'une assurance relative ou raisonnable (le risque zéro n'existe pas) ; • Le facteur humain (inattention, fatigue ou erreur de jugement) ; • L'attitude défaillante de l'encadrement (manque d'implication, défaut de communication ou de sensibilisation) ; • La collusion entre plusieurs collaborateurs contournant les contrôles ; • La fraude délibérée et le contournement des procédures par la direction.",
+            "C'est l'entente secrète ou la complicité entre deux ou plusieurs personnes pour contourner délibérément les contrôles et la séparation des tâches en vue de commettre ou dissimuler une fraude.",
+            "C'est un principe de contrôle interne fondamental consistant à répartir les responsabilités et les accès entre plusieurs personnes afin d'éviter qu'une seule personne puisse initier, autoriser, exécuter et contrôler une opération.",
+            "Le triangle de la fraude repose sur trois facteurs explicatifs : • La pression ou motivation (besoin financier, objectifs professionnels irréalistes) ; • L'opportunité (faiblesses du contrôle interne ou privilèges excessifs permettant d'agir sans être découvert) ; • La rationalisation ou justification (justification morale de l'acte par le fraudeur)."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 311,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "En quoi consiste la réponse aux risques ?",
+        "answer": "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+        "cleanAnswer": "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+        "type": "qcm",
+        "options": [
+            "Il consiste à mettre en place des mesures et des dispositifs de contrôle appropriés afin d'atténuer, éliminer, transférer ou accepter les risques identifiés.",
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+            "La gestion des risques comprend : • L'identification des risques (détecter les risques potentiels) ; • L'évaluation des risques (analyser la probabilité et l'impact de chaque risque) ; • Le traitement des risques (mettre en place des mesures pour atténuer ou éliminer les risques).",
+            "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 312,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "Pourquoi la cartographie des risques ne doit-elle jamais être un document figé ?",
+        "answer": "Parce que l'environnement technologique, réglementaire et opérationnel évolue en permanence ; les risques changent de nature et la cartographie doit être actualisée de manière itérative et continue.",
+        "cleanAnswer": "Parce que l'environnement technologique, réglementaire et opérationnel évolue en permanence ; les risques changent de nature et la cartographie doit être actualisée de manière itérative et continue.",
+        "type": "qcm",
+        "options": [
+            "Elle requiert que les risques clés soient systématiquement identifiés, évalués avec rigueur et fassent l'objet d'une maîtrise adéquate et surveillée.",
+            "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+            "Parce que l'environnement technologique, réglementaire et opérationnel évolue en permanence ; les risques changent de nature et la cartographie doit être actualisée de manière itérative et continue.",
+            "Parce qu'elle n'est pas figée : elle est réévaluée, actualisée et affinée de manière continue tout au long des différentes étapes de la mission d'audit."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 313,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "Qu'est-ce que le risque résiduel ?",
+        "answer": "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants.",
+        "cleanAnswer": "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants.",
+        "type": "qcm",
+        "options": [
+            "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants.",
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+            "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+            "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 314,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "Quelles sont les deux dimensions permettant de mesurer le risque résiduel ?",
+        "answer": "Le risque résiduel se mesure selon :<ol><li>L'impact potentiel des dommages ;</li><li>La probabilité que le risque survienne après l'application des contrôles en place.</li></ol>",
+        "cleanAnswer": "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place.",
+        "type": "order",
+        "correctOrder": [
+            "L'impact potentiel des dommages ;",
+            "La probabilité que le risque survienne après l'application des contrôles en place."
+        ],
+        "shuffledItems": [
+            "La probabilité que le risque survienne après l'application des contrôles en place.",
+            "L'impact potentiel des dommages ;"
+        ]
+    },
+    {
+        "id": 315,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "Quelle formule conceptuelle relie le risque inhérent, les contrôles et le risque résiduel ?",
+        "answer": "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+        "cleanAnswer": "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+        "type": "qcm",
+        "options": [
+            "C'est la possibilité qu'une anomalie significative se produise dans le système ou les données, sans tenir compte de l'effet des contrôles internes existants dans l'entité.",
+            "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place.",
+            "Risque Résiduel = Risque Inhérent - Effet des Contrôles Internes (ou Risque Inhérent modéré par l'efficacité du contrôle interne).",
+            "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 316,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "À quoi sert la matrice d'évaluation des risques ?",
+        "answer": "Elle permet de croiser la probabilité d'occurrence et l'impact potentiel afin de classer, prioriser et visualiser les risques clés nécessitant des actions correctives prioritaires.",
+        "cleanAnswer": "Elle permet de croiser la probabilité d'occurrence et l'impact potentiel afin de classer, prioriser et visualiser les risques clés nécessitant des actions correctives prioritaires.",
+        "type": "qcm",
+        "options": [
+            "Elle permet de croiser la probabilité d'occurrence et l'impact potentiel afin de classer, prioriser et visualiser les risques clés nécessitant des actions correctives prioritaires.",
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+            "Elle requiert que les risques clés soient systématiquement identifiés, évalués avec rigueur et fassent l'objet d'une maîtrise adéquate et surveillée.",
+            "Le risque résiduel se mesure selon : • L'impact potentiel des dommages ; • La probabilité que le risque survienne après l'application des contrôles en place."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 317,
+        "chapitre": "CHAPITRE 3 — LE RISQUE ET LE CONTRÔLE",
+        "sousPoint": "3.3. La Maîtrise des Risques et le Risque Résiduel",
+        "question": "Que requiert une gestion adéquate des risques au sein d'une organisation ?",
+        "answer": "Elle requiert que les risques clés soient systématiquement identifiés, évalués avec rigueur et fassent l'objet d'une maîtrise adéquate et surveillée.",
+        "cleanAnswer": "Elle requiert que les risques clés soient systématiquement identifiés, évalués avec rigueur et fassent l'objet d'une maîtrise adéquate et surveillée.",
+        "type": "qcm",
+        "options": [
+            "Elle requiert que les risques clés soient systématiquement identifiés, évalués avec rigueur et fassent l'objet d'une maîtrise adéquate et surveillée.",
+            "Elle consiste à mettre en place des stratégies et des mesures de traitement appropriées dès lors que le niveau d'un risque évalué dépasse le seuil tolérable ou acceptable par l'entreprise.",
+            "Elle permet de croiser la probabilité d'occurrence et l'impact potentiel afin de classer, prioriser et visualiser les risques clés nécessitant des actions correctives prioritaires.",
+            "C'est le niveau de risque qui subsiste après la prise en compte et la mise en œuvre effective de l'ensemble des dispositifs de contrôle et de maîtrise des risques existants."
+        ],
+        "correctIndex": 0
     }
 ];
 
