@@ -1,0 +1,730 @@
+# 📚 Programmation parallèle — Questions / Réponses pour révision
+
+---
+
+## 🔹 INTRODUCTION
+
+### 1. Qu'est-ce que la programmation parallèle ?
+
+**Réponse :**
+C'est une technique qui consiste à exécuter **plusieurs sous-tâches en même temps** afin de résoudre plus rapidement un problème complexe ou de grande taille.
+
+### 2. Quel est l'objectif principal de la programmation parallèle ?
+
+**Réponse :**
+**Augmenter les performances et réduire le temps d'exécution.**
+
+### 3. Quelle question faut-il se poser avant de paralléliser un problème ?
+
+**Réponse :**
+Il faut se demander : **« Est-ce que le problème est décomposable ? »**
+
+### 4. Que faut-il pour qu'un problème soit parallélisable ?
+
+**Réponse :**
+
+* Décomposer le problème en sous-problèmes.
+* Les sous-problèmes doivent être suffisamment indépendants.
+* Répartir efficacement le travail.
+* Limiter le coût de communication entre les unités.
+
+### 5. Pourquoi la parallélisation peut-elle avoir un surcoût ?
+
+**Réponse :**
+Parce qu'en plus du calcul, il faut gérer **la communication et la coordination entre les processeurs**.
+
+### 6. Tous les problèmes sont-ils parallélisables de la même manière ?
+
+**Réponse :**
+Non. Les problèmes réels sont parallélisables **à des degrés différents**.
+
+### 7. Une version parallèle est-elle toujours similaire à la version séquentielle ?
+
+**Réponse :**
+Non. Une version parallèle peut avoir une **formulation très différente** de la version séquentielle.
+
+---
+
+# 🔹 CHAPITRE 1 : MODÈLES DE MACHINES PARALLÈLES
+
+### 8. Qu'est-ce qu'une machine parallèle ?
+
+**Réponse :**
+C'est un ensemble de **processeurs qui coopèrent et communiquent** pour exécuter un traitement.
+
+### 9. Sur quoi se base la classification de Flynn ?
+
+**Réponse :**
+Elle se base sur :
+
+* le **flot d'instructions** ;
+* le **flot de données**.
+
+### 10. Combien de types de machines distingue la taxonomie de Flynn ?
+
+**Réponse :**
+Elle distingue **4 types : SISD, SIMD, MISD et MIMD.**
+
+---
+
+## 🔹 Taxonomie de Flynn
+
+### 11. Que signifie SISD ?
+
+**Réponse :**
+**Single Instruction, Single Data.**
+
+Une seule instruction travaille sur une seule donnée. C'est le modèle classique **séquentiel de Von Neumann**.
+
+### 12. Que signifie SIMD ?
+
+**Réponse :**
+**Single Instruction, Multiple Data.**
+
+Une même instruction est exécutée simultanément sur **plusieurs données**.
+
+### 13. Donnez un exemple simple de SIMD.
+
+**Réponse :**
+
+```text
+Instruction : × 2
+
+CPU 1 → A × 2
+CPU 2 → B × 2
+CPU 3 → C × 2
+CPU 4 → D × 2
+```
+
+Même instruction, données différentes.
+
+### 14. Que signifie MISD ?
+
+**Réponse :**
+**Multiple Instruction, Single Data.**
+
+Plusieurs instructions sont exécutées simultanément sur **une même donnée**.
+
+### 15. Que signifie MIMD ?
+
+**Réponse :**
+**Multiple Instruction, Multiple Data.**
+
+Chaque processeur peut exécuter **une instruction différente sur des données différentes**.
+
+### 16. Quel modèle est le plus intuitif pour les systèmes multiprocesseurs modernes ?
+
+**Réponse :**
+Le modèle **MIMD**.
+
+---
+
+# 🔹 TYPES DE PARALLÉLISME MATÉRIEL
+
+### 17. Quels sont les principaux types de parallélisme matériel étudiés ?
+
+**Réponse :**
+
+1. Parallélisme au niveau d'instruction.
+2. Parallélisme au niveau des threads.
+3. Parallélisme multicœur.
+4. Parallélisme multiprocesseur.
+
+### 18. Quelles sont les trois techniques du parallélisme au niveau d'instruction ?
+
+**Réponse :**
+
+* Pipeline
+* Superscalaire
+* VLIW
+
+---
+
+# 🔹 PIPELINE
+
+### 19. Qu'est-ce qu'un pipeline ?
+
+**Réponse :**
+Le pipeline consiste à **diviser l'exécution d'une instruction en plusieurs étapes** afin de pouvoir traiter plusieurs instructions simultanément.
+
+### 20. Quelles sont les quatre étapes d'une instruction ?
+
+**Réponse :**
+
+```text
+1. Chargement (Loading)
+2. Décodage
+3. Exécution
+4. Écriture du résultat
+```
+
+### 21. Quel est l'intérêt du pipeline ?
+
+**Réponse :**
+Il permet de **traiter plusieurs instructions en même temps**, chaque instruction étant à une étape différente.
+
+---
+
+# 🔹 SUPERSCALAIRE
+
+### 22. Qu'est-ce qu'une architecture superscalaire ?
+
+**Réponse :**
+Elle divise le processeur en **plusieurs unités fonctionnelles spécialisées** qui peuvent travailler en parallèle.
+
+### 23. Donnez des exemples d'opérations pouvant être exécutées par des unités fonctionnelles.
+
+**Réponse :**
+
+```text
+ADD → addition
+SUB → soustraction
+MUL → multiplication
+```
+
+---
+
+# 🔹 THREADS
+
+### 24. Qu'est-ce qu'un thread ?
+
+**Réponse :**
+Un thread est un **processus léger**, c'est-à-dire une unité d'exécution à l'intérieur d'un processus.
+
+### 25. Qu'est-ce que le parallélisme au niveau des threads ?
+
+**Réponse :**
+Il consiste à exploiter le parallélisme en utilisant **plusieurs fils d'exécution (threads)**.
+
+### 26. Pourquoi utilise-t-on plusieurs threads ?
+
+**Réponse :**
+Pour exécuter plusieurs parties indépendantes d'un programme en parallèle et **réduire le temps d'exécution**.
+
+### 27. Que doit mémoriser le processeur pour gérer plusieurs threads ?
+
+**Réponse :**
+
+* PC (Program Counter)
+* CO
+* registre d'état
+* registres généraux.
+
+---
+
+# 🔹 MULTICŒURS / MULTIPROCESSEURS
+
+### 28. Qu'est-ce qu'un processeur multicœur ?
+
+**Réponse :**
+C'est une **seule puce contenant plusieurs cœurs de calcul**.
+
+### 29. Qu'est-ce qu'un multiprocesseur ?
+
+**Réponse :**
+C'est un système contenant **plusieurs processeurs physiques**, généralement sur des puces distinctes.
+
+### 30. Quelle est la différence entre multicœur et multiprocesseur ?
+
+| Multicœur | Multiprocesseur |
+| --- | --- |
+| Plusieurs cœurs | Plusieurs processeurs physiques |
+| Sur une même puce | Sur des puces distinctes |
+| Partage davantage de ressources | Processeurs plus indépendants |
+
+### 31. Quel est l'avantage du multicœur ?
+
+**Réponse :**
+Le partage des ressources permet une **communication plus rapide entre les cœurs**.
+
+### 32. Quel est l'avantage du multiprocesseur ?
+
+**Réponse :**
+Il offre généralement une **meilleure fiabilité** : la panne d'un processeur n'affecte pas nécessairement les autres.
+
+### 33. Qu'est-ce qu'un multi-ordinateur ?
+
+**Réponse :**
+C'est un ensemble de **plusieurs ordinateurs reliés entre eux**, chaque ordinateur possédant ses propres ressources.
+
+### 34. Quel est l'inconvénient d'un multi-ordinateur ?
+
+**Réponse :**
+La communication entre les ordinateurs est **plus lente** que la communication entre les processeurs d'une même machine.
+
+### 35. Qu'est-ce qu'un cluster ?
+
+**Réponse :**
+C'est un ensemble d'ordinateurs reliés entre eux pour **travailler comme une plateforme de calcul parallèle**.
+
+---
+
+# 🔹 MÉMOIRE CACHE
+
+### 36. Qu'est-ce que la mémoire cache ?
+
+**Réponse :**
+C'est une mémoire **rapide** qui conserve temporairement des copies de données afin de réduire le temps d'accès.
+
+### 37. Pourquoi utilise-t-on une mémoire cache ?
+
+**Réponse :**
+Pour **réduire le temps d'accès aux données**.
+
+### 38. Quels sont les trois niveaux de cache ?
+
+**Réponse :**
+
+```text
+L1 → très rapide
+L2 → rapide
+L3 → plus grande mais généralement plus lente
+```
+
+### 39. Où se trouve généralement le cache L1 ?
+
+**Réponse :**
+Il est intégré à la puce du processeur et peut être séparé en **cache instructions et cache données**.
+
+### 40. Où se trouve généralement le cache L2 ?
+
+**Réponse :**
+Il se trouve généralement **sur la même puce que le processeur**.
+
+---
+
+# 🔥 LOI D'AMDAHL
+
+### 41. Que permet de déterminer la loi d'Amdahl ?
+
+**Réponse :**
+Elle permet de déterminer **l'accélération théorique maximale** obtenue grâce à la parallélisation.
+
+### 42. Quelle est la formule de l'accélération ?
+
+**Réponse :**
+
+$$Acc = \frac{T_s}{T_p}$$
+
+avec :
+
+* \(T_s\) = temps séquentiel ;
+* \(T_p\) = temps parallèle.
+
+### 43. Quelle est la formule d'Amdahl ?
+
+**Réponse :**
+
+$$Acc(p) = \frac{1}{\alpha + \frac{1-\alpha}{p}}$$
+
+avec :
+
+* \(\alpha\) = partie non parallélisable ;
+* \(p\) = nombre de cœurs/processeurs.
+
+### 44. Que signifie une accélération linéaire ?
+
+**Réponse :**
+Une accélération linéaire signifie que le gain obtenu est **égal au nombre de processeurs**.
+
+Exemple :
+
+$$4\ CPU \Rightarrow Acc=4$$
+
+### 45. Que signifie une accélération sublinéaire ?
+
+**Réponse :**
+L'accélération est **inférieure au nombre de processeurs**, notamment à cause des surcoûts et des parties séquentielles.
+
+### 46. Que dit la loi d'Amdahl ?
+
+**Réponse :**
+L'accélération est toujours limitée par **la partie séquentielle du programme**.
+
+---
+
+# 🔥 LOI DE GUSTAFSON-BARSIS
+
+### 47. Que prédit la loi de Gustafson-Barsis ?
+
+**Réponse :**
+Elle prédit l'accélération lorsqu'on **augmente la taille du problème avec le nombre de processeurs**.
+
+### 48. Quelle est la formule de Gustafson ?
+
+**Réponse :**
+
+$$Acc(p) = p - \alpha(p-1)$$
+
+où :
+
+* \(p\) = nombre de processeurs ;
+* \(\alpha\) = partie séquentielle.
+
+---
+
+# 🔹 PARALLÉLISME DE TÂCHES
+
+### 49. Sur quoi se concentre le parallélisme de tâches ?
+
+**Réponse :**
+
+* La modélisation des calculs.
+* Le calcul du temps d'exécution minimal.
+* La détection du parallélisme maximal.
+
+### 50. Quels sont les outils principaux ?
+
+**Réponse :**
+
+* Graphe de dépendances.
+* Conditions de Bernstein.
+* Loi d'Amdahl.
+* Loi de Gustafson.
+* Graphe de précédence.
+
+---
+
+# 🔹 GRAPHE DE PRÉCÉDENCE
+
+### 51. Qu'est-ce qu'un graphe de précédence ?
+
+**Réponse :**
+C'est un graphe permettant de représenter **les dépendances entre les tâches**.
+
+### 52. Que représente un nœud ?
+
+**Réponse :**
+Un nœud représente **une tâche à exécuter**.
+
+### 53. Que représente un arc orienté ?
+
+**Réponse :**
+Il représente une **relation de précédence ou de dépendance** entre deux tâches.
+
+Exemple :
+
+```text
+T1 ─────→ T2
+```
+
+Cela signifie que **T1 doit être exécutée avant T2**.
+
+---
+
+# 🔥 CONDITION DE BERNSTEIN
+
+### 54. Que permet de déterminer la condition de Bernstein ?
+
+**Réponse :**
+Elle permet de savoir si **deux séquences d'instructions peuvent être exécutées en parallèle**.
+
+### 55. Quelles sont les trois conditions de Bernstein ?
+
+Pour deux séquences \(S_1\) et \(S_2\) :
+
+$$E(S_1) \cap L(S_2) = \varnothing$$
+
+$$L(S_1) \cap E(S_2) = \varnothing$$
+
+$$E(S_1) \cap E(S_2) = \varnothing$$
+
+Avec :
+
+* \(E\) = ensemble des écritures ;
+* \(L\) = ensemble des lectures.
+
+### 56. Que signifie la première condition ?
+
+**Réponse :**
+
+$$E(S_1) \cap L(S_2) = \varnothing$$
+
+S1 ne doit pas **écrire** une donnée que S2 doit **lire**.
+
+C'est une dépendance **RAW** (Read After Write).
+
+### 57. Que signifie la deuxième condition ?
+
+**Réponse :**
+
+$$L(S_1) \cap E(S_2) = \varnothing$$
+
+S1 ne doit pas **lire** une donnée que S2 doit **écrire**.
+
+C'est une **anti-dépendance WAR** (Write After Read).
+
+### 58. Que signifie la troisième condition ?
+
+**Réponse :**
+
+$$E(S_1) \cap E(S_2) = \varnothing$$
+
+S1 et S2 ne doivent pas **écrire la même donnée**.
+
+C'est une dépendance **WAW** (Write After Write).
+
+---
+
+# 🔥 EXERCICE DE BERNSTEIN
+
+On a :
+
+```text
+T1 : X = A + B
+T2 : Y = X + C
+```
+
+### 59. T1 et T2 peuvent-elles être exécutées en parallèle ?
+
+**Réponse : Non.**
+
+### 60. Pourquoi ?
+
+T1 **écrit X** :
+
+$$E(T1) = \{X\}$$
+
+T2 **lit X** :
+
+$$L(T2) = \{X, C\}$$
+
+Donc :
+
+$$E(T1) \cap L(T2) = \{X\}$$
+
+Ce n'est pas vide :
+
+$$\{X\} \neq \varnothing$$
+
+Donc il existe une dépendance **RAW**.
+
+**Conclusion :**
+
+$$T1 \rightarrow T2$$
+
+Il faut terminer T1 avant d'exécuter T2.
+
+---
+
+# 🔥 EXERCICE : X, Z, W
+
+On donne :
+
+```text
+X = Y + 1
+Z = Y + Z + 10*T
+W = X + Z
+```
+
+### 61. Peut-on exécuter les trois instructions simultanément ?
+
+**Réponse : Non.**
+
+### 62. Pourquoi ?
+
+* La première instruction **écrit X**.
+* La troisième instruction **lit X**.
+
+Donc :
+
+$$E(T1) \cap L(T3) \neq \varnothing$$
+
+Il existe une dépendance entre T1 et T3.
+
+De même :
+
+* T2 écrit Z.
+* T3 lit Z.
+
+Donc :
+
+$$E(T2) \cap L(T3) \neq \varnothing$$
+
+### 63. Quel est le graphe de dépendance ?
+
+```text
+T1 ───→
+        \
+         → T3
+        /
+T2 ───→
+```
+
+Donc **T1 et T2 peuvent être exécutées en parallèle**, puis T3.
+
+---
+
+# 🔥 ÉQUILIBRAGE DE CHARGE
+
+### 64. Qu'est-ce que l'équilibrage de charge ?
+
+**Réponse :**
+C'est le fait de **répartir le travail équitablement entre les processeurs** afin qu'ils terminent approximativement au même moment.
+
+### 65. Pourquoi l'équilibrage de charge est-il important ?
+
+**Réponse :**
+Parce qu'un processeur qui termine trop tôt peut rester **inactif** pendant que les autres travaillent encore.
+
+---
+
+# 🔥 EXERCICE DES 10 000 ÉLÉMENTS
+
+On a :
+
+* 8 000 éléments de type A ;
+* 1 µs par élément A ;
+* 2 000 éléments de type B ;
+* 4 µs par élément B ;
+* 4 processeurs.
+
+### 66. Quel est le temps total du type A ?
+
+$$8000 \times 1 = 8000\ \mu s$$
+
+### 67. Quel est le temps total du type B ?
+
+$$2000 \times 4 = 8000\ \mu s$$
+
+### 68. Quel est le temps total ?
+
+$$8000 + 8000 = 16000\ \mu s$$
+
+### 69. Quel temps de travail moyen par CPU ?
+
+$$\frac{16000}{4} = 4000\ \mu s$$
+
+Donc :
+
+$$4000\ \mu s/CPU$$
+
+### 70. Quel est l'objectif de la répartition ?
+
+**Réponse :**
+Répartir les éléments de type A et B pour que **chaque CPU ait environ 4000 µs de travail**.
+
+---
+
+# 🔹 OPENMP
+
+### 71. Que signifie OpenMP ?
+
+**Réponse :**
+**Open Multi-Processing.**
+
+### 72. Qu'est-ce qu'OpenMP ?
+
+**Réponse :**
+C'est une **API de programmation parallèle** destinée principalement aux architectures à mémoire partagée.
+
+### 73. Quels langages sont supportés ?
+
+**Réponse :**
+
+* C
+* C++
+* Fortran
+
+### 74. Sur quels systèmes OpenMP peut-il fonctionner ?
+
+**Réponse :**
+Sur de nombreuses plateformes, notamment **Linux et Windows**.
+
+### 75. Sur quel type de mémoire OpenMP fonctionne-t-il ?
+
+**Réponse :**
+**Mémoire partagée.**
+
+### 76. Comment se présente OpenMP ?
+
+**Réponse :**
+Il comprend :
+
+* des directives ;
+* une bibliothèque logicielle ;
+* des variables d'environnement.
+
+### 77. Un programme OpenMP utilise combien de processus ?
+
+**Réponse :**
+Un programme OpenMP est exécuté par **un seul processus** qui peut créer plusieurs threads.
+
+### 78. Que sont les régions séquentielles ?
+
+**Réponse :**
+Ce sont les parties du programme exécutées **séquentiellement**.
+
+### 79. Que sont les régions parallèles ?
+
+**Réponse :**
+Ce sont les parties du programme qui peuvent être exécutées **par plusieurs threads simultanément**.
+
+### 80. Qui exécute la région séquentielle ?
+
+**Réponse :**
+La tâche maître, appelée généralement **thread maître**.
+
+---
+
+# ⭐ QUESTIONS TRÈS PROBABLES À L'EXAMEN
+
+### 81. Quels sont les 4 modèles de Flynn ?
+
+**Réponse :**
+**SISD, SIMD, MISD, MIMD**
+
+### 82. Quels sont les 3 types de parallélisme au niveau d'instruction ?
+
+**Réponse :**
+
+1. Pipeline
+2. Superscalaire
+3. VLIW
+
+### 83. Quelle est la formule du speedup ?
+
+**Réponse :**
+
+$$Acc = \frac{T_s}{T_p}$$
+
+### 84. Quelle est la formule d'Amdahl ?
+
+**Réponse :**
+
+$$Acc(p) = \frac{1}{\alpha + \frac{1-\alpha}{p}}$$
+
+### 85. Quelle est la formule de Gustafson ?
+
+**Réponse :**
+
+$$Acc(p) = p - \alpha(p-1)$$
+
+### 86. Quels sont les trois types de dépendance de Bernstein ?
+
+**Réponse :**
+
+* **RAW** → Read After Write
+* **WAR** → Write After Read
+* **WAW** → Write After Write
+
+### 87. Quel est le principe d'OpenMP ?
+
+**Réponse :**
+**Un processus → plusieurs threads → mémoire partagée.**
+
+### 88. Quelle est la différence essentielle entre MPI et OpenMP ?
+
+**Réponse :**
+* **MPI** → mémoire distribuée et communication par messages.
+* **OpenMP** → mémoire partagée et utilisation de threads.
+
+### 89. Quel est le principe général de la programmation parallèle ?
+
+**Réponse :**
+**Décomposer → répartir → exécuter en parallèle → synchroniser → réunir les résultats.**
+
+### 90. Quel est l'objectif final ?
+
+**Réponse :**
+**Réduire le temps d'exécution et augmenter les performances.**

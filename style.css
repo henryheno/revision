@@ -815,3 +815,158 @@ body {
         font-size: 0.7rem;
     }
 }
+
+/* ==========================================
+   SÉLECTEUR DE COURS & SOMMAIRE
+   ========================================== */
+.menu-section-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #FF9E7D;
+    margin: 1.25rem 0 0.6rem 0;
+    padding-left: 0.25rem;
+}
+
+.menu-course-section:first-child .menu-section-title {
+    margin-top: 0.25rem;
+}
+
+.course-pills {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.course-pill:hover {
+    background: var(--surface-hover);
+    border-color: rgba(255, 158, 125, 0.4);
+    transform: translateX(4px);
+}
+
+.course-pill.active {
+    background: linear-gradient(135deg, rgba(255, 61, 113, 0.25), rgba(255, 158, 125, 0.25));
+    border-color: #FF9E7D;
+    color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(255, 61, 113, 0.15);
+}
+
+/* ==========================================
+   FORMATAGE DU CONTENU (CODE, TABLEAUX, MATHS)
+   ========================================== */
+.code-block {
+    background: #000000;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.6rem;
+    padding: 0.85rem 1rem;
+    margin: 0.6rem 0;
+    font-family: 'Consolas', 'Fira Code', monospace;
+    font-size: 0.88rem;
+    color: #38BDF8;
+    overflow-x: auto;
+    line-height: 1.45;
+}
+
+.inline-code {
+    background: rgba(255, 255, 255, 0.1);
+    color: #38BDF8;
+    padding: 0.15rem 0.35rem;
+    border-radius: 0.3rem;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.math-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 3px solid #FF9E7D;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    margin: 0.6rem 0;
+    font-size: 1.05rem;
+    color: #F3F4F6;
+    overflow-x: auto;
+}
+
+.math-inline {
+    display: inline-block;
+    color: #FFD166;
+    font-weight: 600;
+    padding: 0 0.2rem;
+}
+
+.boxed-math {
+    display: inline-block;
+    border: 1.5px solid #FF9E7D;
+    background: rgba(255, 158, 125, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin: 0.75rem 0;
+}
+
+.markdown-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.markdown-table th,
+.markdown-table td {
+    border: 1px solid var(--border-subtle);
+    padding: 0.65rem 0.85rem;
+    text-align: left;
+}
+
+.markdown-table th {
+    background: rgba(255, 255, 255, 0.08);
+    font-weight: 700;
+    color: #FF9E7D;
+}
+
+.markdown-table tr:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.styled-ol,
+.styled-ul {
+    padding-left: 1.35rem;
+    margin: 0.5rem 0;
+}
+
+.styled-ol li,
+.styled-ul li {
+    margin-bottom: 0.35rem;
+    line-height: 1.45;
+}
+
